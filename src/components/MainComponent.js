@@ -47,16 +47,16 @@ class Main extends Component{
         return(
     <>
         <div>
-                <UncontrolledCarousel items={this.state.items} />
+            <UncontrolledCarousel items={this.state.items} />
         </div>
+        <div className="container">
         <Fade>
-        <div className="container aboutus">
             <div className="row aboutusrow">
-                <div className="col-12 col-md-6">
-                    <img src="assets/images/aboutus.jpg" height="480" width="490" alt="aboutus" />
+                <div className="col-12 col-md-6 m-auto">
+                    <img className="img-fluid" src="assets/images/aboutus.jpg" height="480" width="490" alt="aboutus" />
                 </div>
                 <div className="col-12 col-md-6">
-                    <Card>
+                    <Card style={{marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h3"><strong>ABOUT US</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -75,8 +75,8 @@ class Main extends Component{
                     </Card>
                 </div>
             </div>
-        </div>
-        <div className="container mission">
+        {/* </div> */}
+        {/* <div className="container mission"> */}
             <div className="row missionrow">
                 <div className="col-12 col-md-6">
                     <Card style={{backgroundColor:"#1d5797",height:"300px", textAlign:"center"}}>
@@ -93,7 +93,7 @@ class Main extends Component{
                 <div className="col-12 col-md-6">
                     <Card style={{height:"300px"}}>
                         <CardBody style={{padding:"0px"}}>
-                            <img src="assets/images/vision.jpg" height="298" width="539" alt="vision" />
+                            <img className="img-fluid" src="assets/images/vision.jpg" height="298" width="539" alt="vision" />
                         </CardBody>
                     </Card>
                 </div>
@@ -102,7 +102,7 @@ class Main extends Component{
                 <div className="col-12 col-md-6">
                     <Card style={{height:"300px"}}>
                         <CardBody style={{padding:"0px"}}>
-                            <img src="assets/images/mission.jpg" height="300" width="539" alt="mission" />
+                            <img className="img-fluid" src="assets/images/mission.jpg" height="300" width="539" alt="mission" />
                         </CardBody>
                     </Card>
                 </div>
@@ -119,8 +119,8 @@ class Main extends Component{
                     </Card>
                 </div>
             </div>
-        </div>
-        <div className="container qualitycontrol">
+        {/* </div> */}
+        {/* <div className="container qualitycontrol"> */}
             <div className="row qualitycontrolrow">
                 <div className="col-12 col-md-6">
                     <Card>
@@ -134,16 +134,16 @@ class Main extends Component{
                     </Card>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img src="assets/images/quality.jpg" height="430" width="580" alt="quality" />
+                    <img className="img-fluid" src="assets/images/quality.jpg" height="430" width="580" alt="quality" />
                 </div>
             </div>
-        </div>
-        <div className="container services">
-            <h2 style={{textAlign:"center"}}><strong>OUR SERVICES</strong></h2>
+        {/* </div> */}
+        {/* <div className="container services"> */}
+            <h2 style={{textAlign:"center", marginTop:'20px'}}><strong>OUR SERVICES</strong></h2>
             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left", width:"20%"}}/>
             <div className="row servicesrow">
                 <div className="col-12 col-md-4">
-                    <Card>
+                    <Card style={{marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-ship"></span><strong>  CROSS DOCKING</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -154,7 +154,7 @@ class Main extends Component{
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card>
+                    <Card style={{marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-archive"></span><strong>  GENERAL WAREHOUSING</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -165,7 +165,7 @@ class Main extends Component{
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card>
+                    <Card style={{marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-truck"></span><strong>  FREIGHT FORWARDING</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -181,13 +181,13 @@ class Main extends Component{
                 <Link to={process.env.PUBLIC_URL + "/service"} className="btn btn-info" style={{marginTop:'2em',float:'right'}}>Click here for more <span className="fa fa-arrow-right"></span></Link>
                 </div>
             </div>
-        </div>
-        <div className="container valueadded">
-            <h2 style={{textAlign:"center"}}><strong>VALUE ADDED SERVICES</strong></h2>
+        {/* </div> */}
+        {/* <div className="container valueadded"> */}
+            <h2 style={{textAlign:"center", marginTop:'30px'}}><strong>VALUE ADDED SERVICES</strong></h2>
             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left", width:"20%"}}/>
             <div className="row valueaddedrow">
                 <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px", marginTop:'20px'}}>
                         <CardBody>
                             <CardImg variant="top" src="assets/images/packing.jpg" style={{padding:"0px",margin:"0px"}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  PACKING</strong></CardTitle>
@@ -199,7 +199,7 @@ class Main extends Component{
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px", marginTop:'20px'}}>
                         <CardBody>
                         <CardImg variant="top" src="assets/images/inventory.jpg" height="205" style={{padding:"0px",margin:"0px"}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  INVENTORY MANAGEMENT</strong></CardTitle>
@@ -211,7 +211,7 @@ class Main extends Component{
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                             <CardImg variant="top" src="assets/images/import.jpg" style={{padding:"0px",margin:"0px"}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  IMPORT/EXPORT SERVICES</strong></CardTitle>
@@ -228,8 +228,9 @@ class Main extends Component{
                     <Link to={process.env.PUBLIC_URL + "/service"} className="btn btn-info" style={{marginTop:'2em',float:'right'}}>Click here for more <span className="fa fa-arrow-right"></span></Link>
                 </div>
             </div>
-        </div>
+        
         </Fade>
+        </div>
         </>
         );
     }

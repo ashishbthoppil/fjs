@@ -27,11 +27,10 @@ class About extends Component{
                 </div>
             </div>
         </div>
-        </div>
-        <div className="container aboutus">
+
             <div className="row aboutusrow">
                 <div className="col-12 col-md-6">
-                    <img src="assets/images/aboutus.jpg" height="480" width="490" alt="aboutus" />
+                    <img className="img-fluid" src="assets/images/aboutus.jpg" height="480" width="490" alt="aboutus" />
                 </div>
                 <div className="col-12 col-md-6">
                     <Card style={{border:'none', boxShadow:'none'}}>
@@ -48,8 +47,7 @@ class About extends Component{
                     </Card>
                 </div>
             </div>
-        </div>
-        <div className="container director">
+
             <div className="col-12 col-md-12">
                 <Card>
                     <CardBody>
@@ -64,8 +62,7 @@ class About extends Component{
                     </CardBody>
                 </Card>
             </div>
-        </div>
-        <div className="container mission">
+
             <div className="row missionrow">
                 <div className="col-12 col-md-6">
                     <Card style={{backgroundColor:"#1d5797",height:"300px", textAlign:"center"}}>
@@ -82,7 +79,7 @@ class About extends Component{
                 <div className="col-12 col-md-6">
                     <Card style={{height:"300px"}}>
                         <CardBody style={{padding:"0px"}}>
-                            <img src="assets/images/vision.jpg" height="298" width="539" alt="vision" />
+                            <img className="img-fluid" src="assets/images/vision.jpg" height="298" width="539" alt="vision" />
                         </CardBody>
                     </Card>
                 </div>
@@ -91,7 +88,7 @@ class About extends Component{
                 <div className="col-12 col-md-6">
                     <Card style={{height:"300px"}}>
                         <CardBody style={{padding:"0px"}}>
-                            <img src="assets/images/mission.jpg" height="300" width="539" alt="mission" />
+                            <img className="img-fluid" src="assets/images/mission.jpg" height="300" width="539" alt="mission" />
                         </CardBody>
                     </Card>
                 </div>
@@ -108,8 +105,7 @@ class About extends Component{
                     </Card>
                 </div>
             </div>
-        </div>
-        <div className="container qualitycontrol">
+
             <div className="row qualitycontrolrow">
                 <div className="col-12 col-md-6">
                     <Card style={{border:'none', boxShadow:'none'}}>
@@ -123,7 +119,7 @@ class About extends Component{
                     </Card>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img src="assets/images/quality.jpg" height="430" width="580" alt="quality" />
+                    <img className="img-fluid" src="assets/images/quality.jpg" height="430" width="580" alt="quality" />
                 </div>
             </div>
         </div>

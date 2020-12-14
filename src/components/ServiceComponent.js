@@ -31,7 +31,7 @@ class Service extends Component{
             </div>
             <div className="row servicesrow">
                 <div className="col-12 col-md-4">
-                    <Card style={{height:'380px'}}>
+                    <Card style={{height:'380px',marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-ship"></span><strong>  CROSS DOCKING</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -42,7 +42,7 @@ class Service extends Component{
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:'380px'}}>
+                    <Card style={{height:'380px',marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><FontAwesomeIcon icon={faWarehouse} style={{fontSize:"30px", color:"#1d5797"}}/><strong>  GENERAL WAREHOUSING</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -54,7 +54,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:'380px'}}>
+                    <Card style={{height:'380px',marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-truck"></span><strong>  FREIGHT FORWARDING</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -65,11 +65,10 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
             </div>
-            </div>
-            <div className="container">
+
             <div className="row servicesrow">
                 <div className="col-12 col-md-4">
-                    <Card style={{height:'380px'}}>
+                    <Card style={{height:'380px',marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><FontAwesomeIcon icon={faTools} style={{fontSize:"30px", color:"#1d5797"}}/><strong>  ASSEMBLY</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -80,7 +79,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:'380px'}}>
+                    <Card style={{height:'380px',marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><FontAwesomeIcon icon={faBoxes} style={{fontSize:"30px", color:"#1d5797"}}/><strong>  STORE READY PACKAGING</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -91,7 +90,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:'380px'}}>
+                    <Card style={{height:'380px',marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><FontAwesomeIcon icon={faShoppingBasket} style={{fontSize:"30px", color:"#1d5797"}}/><strong>  FULFILLMENT</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -102,11 +101,10 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
             </div>
-            </div>
-            <div className="container">
+
             <div className="row servicesrow">
                 <div className="col-12 col-md-4">
-                    <Card style={{height:'380px'}}>
+                    <Card style={{height:'380px',marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><FontAwesomeIcon icon={faExchangeAlt} style={{fontSize:"30px", color:"#1d5797"}}/><strong>  REVERSE LOGISTICS</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -117,7 +115,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:'380px'}}>
+                    <Card style={{height:'380px',marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><FontAwesomeIcon icon={faTimesCircle} style={{fontSize:"30px", color:"#1d5797"}}/><strong>  PRODUCT DESTRUCTION</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -128,7 +126,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:'380px'}}>
+                    <Card style={{height:'380px',marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><FontAwesomeIcon icon={faNetworkWired} style={{fontSize:"30px", color:"#1d5797"}}/><strong>  DISTRIBUTION</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -139,11 +137,10 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
             </div>
-            </div>
-            <div className="container">
+
             <div className="row servicesrow">
                 <div className="col-12 col-md-4">
-                    <Card style={{height:'380px'}}>
+                    <Card style={{height:'380px',marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><FontAwesomeIcon icon={faObjectGroup} style={{fontSize:"30px", color:"#1d5797"}}/><strong>  CONSOLIDATION</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -154,7 +151,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:'380px'}}>
+                    <Card style={{height:'380px',marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><FontAwesomeIcon icon={faFileAlt} style={{fontSize:"30px", color:"#1d5797"}}/><strong>  DOCUMENTATION</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -165,7 +162,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:'380px'}}>
+                    <Card style={{height:'380px',marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><FontAwesomeIcon icon={faTruckLoading} style={{fontSize:"30px", color:"#1d5797"}}/><strong>  CARGO CLEARING</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -176,11 +173,10 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
             </div>
-            </div>
-            <div className="container">
+
             <div className="row servicesrow">
                 <div className="col-12 col-md-4">
-                    <Card style={{height:'380px'}}>
+                    <Card style={{height:'380px',marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><FontAwesomeIcon icon={faTruckMoving} style={{fontSize:"30px", color:"#1d5797"}}/><strong>  TRANSPORTATION</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -191,7 +187,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-8">
-                    <Card style={{height:'380px'}}>
+                    <Card style={{height:'auto',marginTop:'20px'}}>
                         <CardBody>
                             <CardTitle tag="h6"><FontAwesomeIcon icon={faLock} style={{fontSize:"30px", color:"#1d5797"}}/><strong>  VEHICLE STUFFING & LASHING</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -202,16 +198,16 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
             </div>
-            </div>
+            
 
             {/* VAS */}
 
-            <div className="container">
+          
             <h2 style={{textAlign:"center", marginTop:"2em"}}><strong>VALUE ADDED SERVICES</strong></h2>
             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left", width:"20%"}}/>
             <div className="row servicesrow">
             <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                             <CardImg variant="top" src="assets/images/packing.jpg" style={{padding:"0px",margin:"0px"}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  PACKING</strong></CardTitle>
@@ -223,7 +219,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                         <CardImg variant="top" src="assets/images/inventory.jpg" height="205" style={{padding:"0px",margin:"0px"}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  INVENTORY MANAGEMENT</strong></CardTitle>
@@ -235,7 +231,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                             <CardImg variant="top" src="assets/images/import.jpg" style={{padding:"0px",margin:"0px"}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  IMPORT/EXPORT SERVICES</strong></CardTitle>
@@ -247,11 +243,10 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
             </div>
-            </div>
-            <div className="container">
+
             <div className="row servicesrow">
             <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                             <CardImg variant="top" src="assets/images/inspect.jpg" style={{padding:"0px",margin:"0px"}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  INSPECTING</strong></CardTitle>
@@ -263,7 +258,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                         <CardImg variant="top" src="assets/images/sort.jpg" height="205" style={{padding:"0px",margin:"0px"}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  SORTING</strong></CardTitle>
@@ -275,7 +270,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                             <CardImg variant="top" src="assets/images/lashing.jpg" style={{padding:"0px",margin:"0px", height:"205px"}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  LASHING</strong></CardTitle>
@@ -287,11 +282,10 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
             </div>
-            </div>
-            <div className="container">
+
             <div className="row servicesrow">
             <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                             <CardImg variant="top" src="assets/images/record.jpg" style={{padding:"0px",margin:"0px", height:'205px'}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  RECORD RETENTION</strong></CardTitle>
@@ -303,7 +297,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                         <CardImg variant="top" src="assets/images/consolidation.jpg" height="205" style={{padding:"0px",margin:"0px", height:'205px'}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  CONSOLIDATION</strong></CardTitle>
@@ -315,7 +309,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                             <CardImg variant="top" src="assets/images/repack.jpg" style={{padding:"0px",margin:"0px", height:'205px'}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  REPACKING</strong></CardTitle>
@@ -327,11 +321,10 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
             </div>
-            </div>
-            <div className="container">
+
             <div className="row servicesrow">
             <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                             <CardImg variant="top" src="assets/images/palet.jpg" style={{padding:"0px",margin:"0px", height:'205px'}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  PALLETISATION</strong></CardTitle>
@@ -343,7 +336,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                         <CardImg variant="top" src="assets/images/shrink.jpg" height="205" style={{padding:"0px",margin:"0px", height:'205px'}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  SHRINK WRAPPING</strong></CardTitle>
@@ -355,7 +348,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                             <CardImg variant="top" src="assets/images/belting.jpg" style={{padding:"0px",margin:"0px", height:'205px'}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  BELTING</strong></CardTitle>
@@ -369,7 +362,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
             </div>
             <div className="row servicesrow">
             <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                             <CardImg variant="top" src="assets/images/assemble.jpg" style={{padding:"0px",margin:"0px", height:'205px'}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  ASSEMBLING</strong></CardTitle>
@@ -381,7 +374,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                         <CardImg variant="top" src="assets/images/label.jpg" height="205" style={{padding:"0px",margin:"0px", height:'205px'}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  LABELLING</strong></CardTitle>
@@ -393,7 +386,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                     </Card>
                 </div>
                 <div className="col-12 col-md-4">
-                    <Card style={{height:"500px"}}>
+                    <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                             <CardImg variant="top" src="assets/images/bag.jpg" style={{padding:"0px",margin:"0px", height:'205px'}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  BAGGING OR KITTING</strong></CardTitle>

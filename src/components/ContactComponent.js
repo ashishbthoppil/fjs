@@ -16,7 +16,6 @@ class Contact extends Component {
     }
 
     handleSubmit(values){
-        // alert(values.firstname);
         const templateId = 'template_ydo94vc';
 
         this.sendFeedback(templateId, {message: values.message, firstname: values.firstname, lastname: values.lastname, email: values.email, telnum: values.telnum})
@@ -29,7 +28,6 @@ class Contact extends Component {
           'user_zu0ldwdQx9uJbEsvRMWUZ').then(res => {
             alert('Email successfully sent!')
           })
-        //   Handle errors here however you like, or use a React error boundary
           .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
       
       }
