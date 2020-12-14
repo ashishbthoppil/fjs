@@ -1,0 +1,125 @@
+.container{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+.jumbotron {
+  margin:0px;
+  border-radius: 0px;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  background-color: #5b6467;
+  background-image: linear-gradient(180deg, #bebebe 0%, #868686 74%);
+}
+
+.navbar{
+  background: #1d5797 ;
+  color: #ebf8ff;
+  height: 60px;
+  position: sticky;
+  top:0;
+  z-index: 1000;
+  box-shadow: 0px 1px #979797;
+}
+
+.footer{
+  background-color: #1d5797;
+  bottom: 0;
+  color: #ebf8ff;
+  margin:50px 0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.nav-item{
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.navbar-nav{
+  position:absolute;
+  right : 10px;
+}
+
+.carousel-caption h3{
+  color:#ebf8ff;
+  position: relative;
+  text-align: center;
+  bottom: 7em;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.aboutus{
+  height: 100vh;
+}
+
+.aboutusrow{
+  margin-top: 100px;
+}
+
+.mission{
+  height: 100vh;
+}
+
+.missionrow{
+  margin-top: 100px;
+}
+
+.card{
+  border-radius: 0%;
+  border-color:#f2f2f2;
+  box-shadow: 2px 3px #f2f2f2;
+}
+
+img:not(#logo){
+  box-shadow: 2px 3px #f2f2f2;
+}
+
+.qualitycontrol{
+  height: 100vh;
+}
+
+.qualitycontrolrow{
+  margin-top: 100px;
+}
+
+.services{
+  height: 100vh;
+}
+
+.servicesrow{
+  margin-top: 25px;
+}
+
+.valueadded{
+  height: 100vh;
+}
+
+.valueaddedrow{
+  margin-top: 50px;
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+
+  .contactback{
+    background-image: url("vision1.jpg");
+    background-repeat: repeat;
+    color: white;
+    padding: 45px;
+    opacity: 90%;
+    border-radius: 5px;
+  }
+
+  .director{
+    margin-top: 2em;
+  }
