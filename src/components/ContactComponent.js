@@ -42,7 +42,7 @@ class Contact extends Component {
                         <div className="col-12">
                             <h3 style={{textAlign:'center'}}><strong>CONTACT US</strong></h3>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
-                            <div className="contactback" style={{backgroundImage:'url(assets/images/vision.jpg)'}}>
+                            <div className="contactback" style={{backgroundImage:"url('assets/images/vision.jpg')"}}>
                                 <p style={{textAlign:'center'}}><i>"Customer satisfaction is the key to success for any business. We understand and follow this diligently."</i></p>
                                 <p><strong>Our customers are always our priority and we would love to hear from you. We encourage you to get in touch with us if you have any queries regarding any of our products or services. We would also love to hear from you if you have any suggestions on how we can assist you better. Your feedback is highly important to us. Write to us if you have an idea or feedback.</strong></p>
                             </div>
