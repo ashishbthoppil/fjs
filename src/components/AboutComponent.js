@@ -30,7 +30,7 @@ class About extends Component{
 
             <div className="row aboutusrow">
                 <div className="col-12 col-md-6">
-                    <img className="img-fluid" src="assets/images/aboutus.jpg" height="480" width="490" alt="aboutus" />
+                    <img className="img-fluid" src="../assets/images/aboutus.jpg" height="480" width="490" alt="aboutus" />
                 </div>
                 <div className="col-12 col-md-6">
                     <Card style={{border:'none', boxShadow:'none'}}>
