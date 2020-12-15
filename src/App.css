@@ -130,7 +130,7 @@ img:not(#logo){
   }
 
   .contactback{
-    background-image: url("assets/images/vision.jpg");
+    background-image: url("../public/assets/images/vision.jpg");
     background-repeat: repeat;
     color: white;
     padding: 45px;
