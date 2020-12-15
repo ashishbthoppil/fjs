@@ -43,43 +43,43 @@ class Contact extends Component {
                             <h3 style={{textAlign:'center'}}><strong>CONTACT US</strong></h3>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <div className="contactback">
-                                <p style={{textAlign:'center'}}><i><strong>"Customer satisfaction is the key to success for any business. We understand and follow this diligently."</strong></i></p>
-                                <p>Our customers are always our priority and we would love to hear from you. We encourage you to get in touch with us if you have any queries regarding any of our products or services. We would also love to hear from you if you have any suggestions on how we can assist you better. Your feedback is highly important to us. Write to us if you have an idea or feedback.</p>
+                                <p style={{textAlign:'center'}}><i>"Customer satisfaction is the key to success for any business. We understand and follow this diligently."</i></p>
+                                <p><strong>Our customers are always our priority and we would love to hear from you. We encourage you to get in touch with us if you have any queries regarding any of our products or services. We would also love to hear from you if you have any suggestions on how we can assist you better. Your feedback is highly important to us. Write to us if you have an idea or feedback.</strong></p>
                             </div>
                         </div>
                 </div>
                 <div className="row row-content" style={{marginBottom:"2em"}}>
                     <div className="col-12">
-                    <h3 style={{marginBottom:"2em", marginTop:"2em"}}>Location Information</h3>
+                    <h3 style={{marginTop:"2em"}}>Location Information</h3>
+                    <hr style={{backgroundColor:"#1d5797",height:"5px", float:"left", width:"5em", marginBottom:"2em"}}/>
                     </div>
-                    <div className="col-12 col-sm-4 offset-sm-1">
-                            <h5>Our Address</h5>
+                    <div className="col-12 col-sm-4 offset-sm-1" style={{border:"1px solid" ,borderColor:"#f2f2f2",boxShadow: "2px 3px #f2f2f2", padding:"15px", height:"290px"}}>
+                            <h5><strong>Our Address</strong></h5>
                             <address>
-                        <span className="fa fa-address-card" style={{color:"#1d5797"}} aria-hidden="true"></span>: Post Box 182113,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Plot No 597-595 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dubai Investment Park II <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dubai, United Arab Emirates <br/>
-                          <i className="fa fa-fax fa-lg" style={{color:"#1d5797"}}></i>: +971 4 809 0300<br />
-                          <i className="fa fa-phone fa-lg" style={{color:"#1d5797"}}></i>: +971 50 7163192 / +971 52 413 1176<br />
-                          <i className="fa fa-envelope fa-lg" style={{color:"#1d5797"}}></i>: <a href="mailto:abc@abc.com">
-                          abc@abc.com</a>
+                        <span style={{color:'#1d5797'}} className="fa fa-address-card" aria-hidden="true"></span>: FJS LOGISTICS DWC-LLC,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Business Center, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dubai World Central,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P.O. Box 182113, Dubai, U. A. E <br/>
+                          <i style={{color:'#1d5797'}} className="fa fa-fax fa-lg"></i>: +971 48053900<br />
+                          <i style={{color:'#1d5797'}} className="fa fa-phone fa-lg"></i>: +971 507163192 / +971 524131176<br />
+                          <i style={{color:'#1d5797'}} className="fa fa-envelope fa-lg"></i>: <a href="mailto:t.thoppil@fjslogistics.com">
+                          t.thoppil@fjslogistics.com</a>
                         </address>
-                    </div>
-                    <div className="col-12 col-sm-6 offset-sm-1">
-                        <h5>Map of our Location</h5>
-                        <div id="map-container-google-1" className="z-depth-1-half map-container" style={{height: "500px"}}>
-                            <iframe src="https://maps.google.com/maps?q=dubaiinvestmentpark2&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-                            style={{border:"0"}} allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div className="col-12 col-sm-11 offset-sm-1">
                         <div className="btn-group" role="group">
                             <a role="button" className="btn btn-primary" href="tel:+85212345678"><i className="fa fa-phone"></i> Call</a>
                             {/* <a role="button" className="btn btn-info"><i className="fa fa-skype"></i> Skype</a> */}
                             <a role="button" className="btn btn-success" href="mailto:confusion@food.net"><i className="fa fa-envelope"></i> Email</a>
                         </div>
                     </div>
+                    <div className="col-12 col-sm-6 offset-sm-1" style={{border:"1px solid" ,borderColor:"#f2f2f2",boxShadow: "2px 3px #f2f2f2", padding:"15px"}}>
+                        <h5><strong>Map of our Location</strong></h5>
+                        <div id="map-container-google-1" className="z-depth-1-half map-container" style={{height: "500px"}}>
+                            <iframe src="https://maps.google.com/maps?q=Dubai World Central&t=&z=13&ie=UTF8&iwloc=&output=embed&z=15" frameborder="0"
+                            style={{border:"0"}} allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </div>
                 <div className="row row-content">
                     <div className="col-12">
                         <h3>Send us Your Feedback</h3>
+                        <hr style={{backgroundColor:"#1d5797",height:"5px", float:"left", width:"5em", marginBottom:"2em"}}/>
                     </div>
                         <div className="col-12 col-md-9">
                             <LocalForm onSubmit={(values) => this.handleSubmit(values)}>

@@ -22,17 +22,18 @@ function Footer(props){
                     <div className="col-7 col-sm-5">
                         <h5><strong>Our Address</strong></h5>
                         <address>
-                        <span className="fa fa-address-card" aria-hidden="true"></span>: Post Box 182113,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Plot No 597-595 Dubai Investment Park II <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dubai, United Arab Emirates <br/>
-                          <i className="fa fa-fax fa-lg"></i>: +971 4 809 0300<br />
-                          <i className="fa fa-phone fa-lg"></i>: +971 50 7163192 / +971 52 413 1176<br />
+                        <span className="fa fa-address-card" aria-hidden="true"></span>: FJS LOGISTICS DWC-LLC,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Business Center, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dubai World Central,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P.O. Box 182113, Dubai, U. A. E <br/>
+                          <i className="fa fa-fax fa-lg"></i>: +971 48053900<br />
+                          <i className="fa fa-phone fa-lg"></i>: +971 507163192 / +971 524131176<br />
                           <i className="fa fa-envelope fa-lg"></i>: <a style={{color:"#ebf8ff"}} href="mailto:t.thoppil@fjslogistics.com">
                           t.thoppil@fjslogistics.com</a>
                         </address>
                     </div>
                     <div className="col-12 col-sm-4 align-self-center">
                         <div className="text-center">
-                            <a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/thankappenthoppil/" target="_blank"><FontAwesomeIcon icon={faLinkedin} style={{fontSize:"30px"}}/></a>
-                            <a className="btn btn-social-icon" href="mailto:t.thoppil@fjslogistics.com"><i className="fa fa-envelope" style={{fontSize:"30px"}}></i></a>
+                            <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>Social Links</strong></h4>
+                            <a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/thankappenthoppil/" target="_blank"><FontAwesomeIcon icon={faLinkedin} style={{fontSize:"30px", color:'#ebf8ff'}}/></a>
+                            <a className="btn btn-social-icon" href="mailto:t.thoppil@fjslogistics.com"><i className="fa fa-envelope" style={{fontSize:"30px", color:'#ebf8ff'}}></i></a>
                         </div>
                     </div>
                 </div>

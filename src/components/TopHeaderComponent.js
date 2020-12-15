@@ -64,7 +64,7 @@ class TopHeader extends Component{
                         <a className="btn btn-social-icon" href="mailto:t.thoppil@fjslogistics.com"><i className="fa fa-envelope" style={{fontSize:"20px", color:"#ebf8ff"}}></i></a>
                     </div>
                     <div className="col-12 col-md-6 m-auto">
-                    <span style={{color:"#ebf8ff", float:'right'}}>Tel no. : +971 507163192 / +971 524131176 </span>
+                    <span style={{color:"#ebf8ff", float:'right'}}>Tel no. : +971 48053900 / +971 524131176 </span>
                     </div>
                 </div>
             </div>

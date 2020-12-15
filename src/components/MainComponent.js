@@ -3,6 +3,8 @@ import { UncontrolledCarousel, Card, CardBody,
          CardTitle, CardText, CardImg, Button} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+// import { Carousel } from 'react-responsive-carousel';
 
 class Main extends Component{
     constructor(props){
@@ -11,31 +13,31 @@ class Main extends Component{
             items : [
                 {
                     src: 'assets/images/carousel2.jpg',
-                    altText: 'Slide 1',
+                    altText: 'Shipping & Cargo Clearing',
                     header: 'Shipping & Cargo Clearing',
                     key: '1'
                   },
                   {
                     src: 'assets/images/carousel1.jpg',
-                    altText: 'Slide 2',
+                    altText: 'General Warehousing',
                     header: 'General Warehousing',
                     key: '2'
                   },
                   {
                     src: 'assets/images/carousel3.jpg',
-                    altText: 'Slide 3',
+                    altText: 'Freight Forwarding & Logistics',
                     header: 'Freight Forwarding & Logistics',
                     key: '3'
                   },
                   {
                     src: 'assets/images/carousel4.jpg',
-                    altText: 'Slide 4',
+                    altText: 'Cargo Clearing',
                     header: 'Cargo Clearing',
                     key: '4'
                   },
                   {
                     src: 'assets/images/carousel5.jpg',
-                    altText: 'Slide 5',
+                    altText: 'Transportation',
                     header: 'Transportation',
                     key: '5'
                   }
@@ -47,7 +49,7 @@ class Main extends Component{
         return(
     <>
         <div>
-            <UncontrolledCarousel items={this.state.items} />
+            <UncontrolledCarousel interval={2500} style={{height:'auto'}} items={this.state.items} />
         </div>
         <div className="container">
         <Fade>
@@ -102,7 +104,7 @@ class Main extends Component{
                 <div className="col-12 col-md-6">
                     <Card style={{height:"300px"}}>
                         <CardBody style={{padding:"0px"}}>
-                            <img className="img-fluid" src="assets/images/mission.jpg" height="300" width="539" alt="mission" />
+                            <img className="img-fluid" src="assets/images/mission.jpg" height="298" width="539" alt="mission" />
                         </CardBody>
                     </Card>
                 </div>
@@ -137,9 +139,8 @@ class Main extends Component{
                     <img className="img-fluid" src="assets/images/quality.jpg" height="430" width="580" alt="quality" />
                 </div>
             </div>
-        {/* </div> */}
-        {/* <div className="container services"> */}
-            <h2 style={{textAlign:"center", marginTop:'20px'}}><strong>OUR SERVICES</strong></h2>
+            
+            <h2 style={{textAlign:"center", marginTop:'200px'}}><strong>OUR SERVICES</strong></h2>
             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left", width:"20%"}}/>
             <div className="row servicesrow">
                 <div className="col-12 col-md-4">
@@ -181,9 +182,10 @@ class Main extends Component{
                 <Link to={process.env.PUBLIC_URL + "/service"} className="btn btn-info" style={{marginTop:'2em',float:'right'}}>Click here for more <span className="fa fa-arrow-right"></span></Link>
                 </div>
             </div>
+           
         {/* </div> */}
         {/* <div className="container valueadded"> */}
-            <h2 style={{textAlign:"center", marginTop:'30px'}}><strong>VALUE ADDED SERVICES</strong></h2>
+            <h2 style={{textAlign:"center", marginTop:'120px'}}><strong>VALUE ADDED SERVICES</strong></h2>
             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left", width:"20%"}}/>
             <div className="row valueaddedrow">
                 <div className="col-12 col-md-4">
@@ -201,7 +203,7 @@ class Main extends Component{
                 <div className="col-12 col-md-4">
                     <Card style={{height:"500px", marginTop:'20px'}}>
                         <CardBody>
-                        <CardImg variant="top" src="assets/images/inventory.jpg" height="205" style={{padding:"0px",margin:"0px"}}></CardImg>
+                        <CardImg className="img-fluid" variant="top" src="assets/images/inventory.jpg" height="205" style={{padding:"0px",margin:"0px"}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  INVENTORY MANAGEMENT</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
