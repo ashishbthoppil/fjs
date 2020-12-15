@@ -23,7 +23,7 @@ class Service extends Component{
                         <div className="col-12">
                             <h3 style={{textAlign:'center'}}><strong>OUR SERVICES</strong></h3>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
-                            <div className="contactback" style={{backgroundImage:'url(./assets/images/vision.jpg)'}}>
+                            <div className="contactback" style={{backgroundImage:'url(assets/images/vision.jpg)'}}>
                                 <p style={{textAlign:"center", opacity:"90%"}}><strong>The company provides a wide range of services to cater to the needs of the customers, aiming to provide end-to-end logistics solutions. We aim to constantly evolve to include more services and products in order to serve our customer better.</strong></p>
                             </div>
                         </div>
