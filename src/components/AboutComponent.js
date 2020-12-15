@@ -22,7 +22,7 @@ class About extends Component{
             <div className="col-12">
                 <h3 style={{textAlign:'center'}}><strong>ABOUT US</strong></h3>
                 <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
-                <div className="contactback" style={{backgroundImage:'url(assets/images/vision.jpg)'}}>
+                <div className="contactback" style={{backgroundImage:'url("https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/vision.jpg")'}}>
                     <p style={{textAlign:"center", opacity:"90%"}}><strong>FJS logistics provides the best services and solutions to its customers, offers timely delivery, and excellent support services without arbitrating on the quality and all this at economical rates.</strong></p>
                 </div>
             </div>
