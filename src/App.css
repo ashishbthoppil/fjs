@@ -130,7 +130,7 @@ img:not(#logo){
   }
 
   .contactback{
-    background-image: url("back.jpg");
+    /* background-image: url("back.jpg"); */
     background-repeat: repeat;
     color: white;
     padding: 45px;
