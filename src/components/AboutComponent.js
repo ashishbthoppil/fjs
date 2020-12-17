@@ -12,8 +12,9 @@ class About extends Component{
     render(){
         return(
         <>
-        <Fade>
+        
         <div className="container">
+        <Fade bottom>
         <div className="row">
             <Breadcrumb style={{marginTop:"1em"}}>
                 <BreadcrumbItem><Link to='/home'>Home</Link></BreadcrumbItem>
@@ -27,10 +28,11 @@ class About extends Component{
                 </div>
             </div>
         </div>
-
+        </Fade>
+        <Fade bottom>
             <div className="row aboutusrow">
                 <div className="col-12 col-md-6">
-                    <img className="img-fluid" src="assets/images/aboutus.jpg" height="480" width="490" alt="aboutus" />
+                    <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/aboutus.jpg" height="480" width="490" alt="aboutus" />
                 </div>
                 <div className="col-12 col-md-6">
                     <Card style={{border:'none', boxShadow:'none'}}>
@@ -47,8 +49,10 @@ class About extends Component{
                     </Card>
                 </div>
             </div>
-
-            <div className="col-12 col-md-12">
+            </Fade>
+            <Fade bottom>
+            <div className="row director">
+            <div className="col-12 col-md-12 m-auto">
                 <Card>
                     <CardBody>
                     <CardTitle tag="h3"><strong>DIRECTORS MESSAGE</strong></CardTitle>
@@ -56,14 +60,17 @@ class About extends Component{
                         <CardText>
                             <p>
                             Our overall business strength is shaped by our core strategies and values. We work tirelessly to provide our customers unparalleled services and quality products at a competitive price. We aim to emerge as a customer’s first choice, which is also our vision. We believe, when it comes to ethics and integrity, there can be no compromises, no excuses.</p>
-<p>Integrity, competency, excellence, customer service and creativity – these values are the pillars of our Company.
+                            <p>Integrity, competency, excellence, customer service and creativity – these values are the pillars of our Company.
                             </p>
                         </CardText>
                     </CardBody>
                 </Card>
             </div>
-
+            </div>
+            </Fade>
+            
             <div className="row missionrow">
+            <Fade left>
                 <div className="col-12 col-md-6">
                     <Card style={{backgroundColor:"#1d5797",height:"300px", textAlign:"center"}}>
                         <span className="fa fa-eye" style={{color:"#ebf8ff",fontSize:"50px", marginTop:"10px",textAlign:"center"}}></span>
@@ -76,22 +83,30 @@ class About extends Component{
                         </CardBody>
                     </Card>
                 </div>
+                </Fade>
+                <Fade right>
                 <div className="col-12 col-md-6">
-                    <Card style={{height:"300px"}}>
-                        <CardBody style={{padding:"0px"}}>
-                            <img className="img-fluid" src="assets/images/vision.jpg" height="298" width="539" alt="vision" />
-                        </CardBody>
-                    </Card>
+                    {/* <Card style={{height:"300px"}}>
+                        <CardBody style={{padding:"0px"}}> */}
+                            <img style={{height:"300px"}} className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/vision.jpg" height="298" width="539" alt="vision" />
+                        {/* </CardBody>
+                    </Card> */}
                 </div>
+                </Fade>
             </div>
+            
+            
             <div className="row missionrow2">
+            <Fade left>
                 <div className="col-12 col-md-6">
-                    <Card style={{height:"300px"}}>
-                        <CardBody style={{padding:"0px"}}>
-                            <img className="img-fluid" src="assets/images/mission.jpg" height="300" width="539" alt="mission" />
-                        </CardBody>
-                    </Card>
+                    {/* <Card style={{height:"300px"}}>
+                        <CardBody style={{padding:"0px"}}> */}
+                            <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/mission.jpg" height="300" width="539" alt="mission" />
+                        {/* </CardBody>
+                    </Card> */}
                 </div>
+                </Fade>
+                <Fade right>
                 <div className="col-12 col-md-6">
                     <Card style={{backgroundColor:"#1d5797",height:"300px", textAlign:"center"}}>
                         <span className="fa fa-bullseye" style={{color:"#ebf8ff",fontSize:"50px", marginTop:"10px",textAlign:"center"}}></span>
@@ -104,8 +119,10 @@ class About extends Component{
                         </CardBody>
                     </Card>
                 </div>
+                </Fade>
             </div>
-
+            
+            <Fade bottom>
             <div className="row qualitycontrolrow">
                 <div className="col-12 col-md-6">
                     <Card style={{border:'none', boxShadow:'none'}}>
@@ -119,11 +136,11 @@ class About extends Component{
                     </Card>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img className="img-fluid" src="assets/images/quality.jpg" height="430" width="580" alt="quality" />
+                    <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/quality.jpg" height="430" width="580" alt="quality" />
                 </div>
             </div>
+            </Fade>
         </div>
-        </Fade>
         </>
         );
     }

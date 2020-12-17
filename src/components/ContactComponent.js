@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Breadcrumb, BreadcrumbItem, Button, Label, Col, Row} from 'reactstrap';
 import { Control, LocalForm, Errors } from 'react-redux-form';
 import { Link } from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
 
 const required = (val) => val && val.length;
 const maxLength = (len) => (val) =>!(val) || (val.length) <= len
@@ -48,6 +49,7 @@ class Contact extends Component {
                             </div>
                         </div>
                 </div>
+                <Fade bottom>
                 <div className="row row-content" style={{marginBottom:"2em"}}>
                     <div className="col-12">
                     <h3 style={{marginTop:"2em"}}>Location Information</h3>
@@ -76,7 +78,9 @@ class Contact extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="row row-content">
+                </Fade>
+                <Fade bottom>
+                <div className="row row-content" style={{border:"1px solid",backgroundColor:"white",borderColor:"#f2f2f2", padding:"20px", borderRadius:"5px",boxShadow: "2px 3px #f2f2f2"}}>
                     <div className="col-12">
                         <h3>Send us Your Feedback</h3>
                         <hr style={{backgroundColor:"#1d5797",height:"5px", float:"left", width:"5em", marginBottom:"2em"}}/>
@@ -162,6 +166,7 @@ class Contact extends Component {
                             </LocalForm>
                         </div>
                     </div>
+                    </Fade>
             </div>
         );
     }

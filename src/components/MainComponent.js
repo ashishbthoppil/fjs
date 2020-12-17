@@ -3,8 +3,7 @@ import { UncontrolledCarousel, Card, CardBody,
          CardTitle, CardText, CardImg, Button} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-// import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 class Main extends Component{
     constructor(props){
@@ -12,31 +11,31 @@ class Main extends Component{
         this.state = {
             items : [
                 {
-                    src: 'assets/images/carousel2.jpg',
+                    src: 'https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/carousel2.jpg',
                     altText: 'Shipping & Cargo Clearing',
                     header: 'Shipping & Cargo Clearing',
                     key: '1'
                   },
                   {
-                    src: 'assets/images/carousel1.jpg',
+                    src: 'https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/carousel1.jpg',
                     altText: 'General Warehousing',
                     header: 'General Warehousing',
                     key: '2'
                   },
                   {
-                    src: 'assets/images/carousel3.jpg',
+                    src: 'https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/carousel3.jpg',
                     altText: 'Freight Forwarding & Logistics',
                     header: 'Freight Forwarding & Logistics',
                     key: '3'
                   },
                   {
-                    src: 'assets/images/carousel4.jpg',
+                    src: 'https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/carousel4.jpg',
                     altText: 'Cargo Clearing',
                     header: 'Cargo Clearing',
                     key: '4'
                   },
                   {
-                    src: 'assets/images/carousel5.jpg',
+                    src: 'https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/carousel5.jpg',
                     altText: 'Transportation',
                     header: 'Transportation',
                     key: '5'
@@ -52,10 +51,10 @@ class Main extends Component{
             <UncontrolledCarousel interval={2500} style={{height:'auto'}} items={this.state.items} />
         </div>
         <div className="container">
-        <Fade>
+        <Fade bottom>
             <div className="row aboutusrow">
                 <div className="col-12 col-md-6 m-auto">
-                    <img className="img-fluid" src="assets/images/aboutus.jpg" height="480" width="490" alt="aboutus" />
+                    <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/aboutus.jpg" height="480" width="490" alt="aboutus" />
                 </div>
                 <div className="col-12 col-md-6">
                     <Card style={{marginTop:'20px'}}>
@@ -93,20 +92,20 @@ class Main extends Component{
                     </Card>
                 </div>
                 <div className="col-12 col-md-6">
-                    <Card style={{height:"300px"}}>
-                        <CardBody style={{padding:"0px"}}>
-                            <img className="img-fluid" src="assets/images/vision.jpg" height="298" width="539" alt="vision" />
-                        </CardBody>
-                    </Card>
+                    {/* <Card style={{height:"300px"}}>
+                        <CardBody style={{padding:"0px"}}> */}
+                            <img style={{height:"300px"}} className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/vision.jpg" height="298" width="539" alt="vision" />
+                        {/* </CardBody>
+                    </Card> */}
                 </div>
             </div>
             <div className="row missionrow2">
                 <div className="col-12 col-md-6">
-                    <Card style={{height:"300px"}}>
-                        <CardBody style={{padding:"0px"}}>
-                            <img className="img-fluid" src="assets/images/mission.jpg" height="298" width="539" alt="mission" />
-                        </CardBody>
-                    </Card>
+                    {/* <Card style={{height:"300px"}}>
+                        <CardBody style={{padding:"0px"}}> */}
+                            <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/mission.jpg" height="298" width="539" alt="mission" />
+                        {/* </CardBody> */}
+                    {/* </Card> */}
                 </div>
                 <div className="col-12 col-md-6">
                     <Card style={{backgroundColor:"#1d5797",height:"300px", textAlign:"center"}}>
@@ -136,7 +135,7 @@ class Main extends Component{
                     </Card>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img className="img-fluid" src="assets/images/quality.jpg" height="430" width="580" alt="quality" />
+                    <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/quality.jpg" height="430" width="580" alt="quality" />
                 </div>
             </div>
             
@@ -179,7 +178,7 @@ class Main extends Component{
             </div>
             <div className="row">
                 <div className="col-12 col-md-12 m-auto">
-                <Link to={process.env.PUBLIC_URL + "/service"} className="btn btn-info" style={{marginTop:'2em',float:'right'}}>Click here for more <span className="fa fa-arrow-right"></span></Link>
+                <Link to={process.env.PUBLIC_URL + "/service"} className="btn btn-info btnlink" style={{marginTop:'2em',float:'right'}}>Click here for more <span className="fa fa-arrow-right"></span></Link>
                 </div>
             </div>
            
@@ -191,7 +190,7 @@ class Main extends Component{
                 <div className="col-12 col-md-4">
                     <Card style={{height:"500px", marginTop:'20px'}}>
                         <CardBody>
-                            <CardImg variant="top" src="assets/images/packing.jpg" style={{padding:"0px",margin:"0px"}}></CardImg>
+                            <CardImg variant="top" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/packing.jpg" style={{padding:"0px",margin:"0px"}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  PACKING</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
@@ -203,7 +202,7 @@ class Main extends Component{
                 <div className="col-12 col-md-4">
                     <Card style={{height:"500px", marginTop:'20px'}}>
                         <CardBody>
-                        <CardImg className="img-fluid" variant="top" src="assets/images/inventory.jpg" height="205" style={{padding:"0px",margin:"0px"}}></CardImg>
+                        <CardImg className="img-fluid" variant="top" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/inventory.jpg" height="205" style={{padding:"0px",margin:"0px"}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  INVENTORY MANAGEMENT</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
@@ -215,7 +214,7 @@ class Main extends Component{
                 <div className="col-12 col-md-4">
                     <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
-                            <CardImg variant="top" src="assets/images/import.jpg" style={{padding:"0px",margin:"0px"}}></CardImg>
+                            <CardImg variant="top" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/import.jpg" style={{padding:"0px",margin:"0px"}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  IMPORT/EXPORT SERVICES</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
@@ -227,7 +226,7 @@ class Main extends Component{
             </div>
             <div className="row">
                 <div className="col-12 col-md-12">
-                    <Link to={process.env.PUBLIC_URL + "/service"} className="btn btn-info" style={{marginTop:'2em',float:'right'}}>Click here for more <span className="fa fa-arrow-right"></span></Link>
+                    <Link to={process.env.PUBLIC_URL + "/service"} className="btn btn-info btnlink" style={{marginTop:'2em',float:'right'}}>Click here for more <span className="fa fa-arrow-right"></span></Link>
                 </div>
             </div>
         
