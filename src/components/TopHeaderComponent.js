@@ -26,7 +26,7 @@ class TopHeader extends Component{
             <Navbar dark expand="md">
             <div className="container">
                 <NavbarToggler onClick={this.toggleNav} />
-                <NavbarBrand className="mr-auto" href={process.env.PUBLIC_URL + "/home"}>
+                <NavbarBrand className="mr-auto">
                     <img id="logo" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/logo.jpg" height="50" width="90" alt="FJS" />
                 </NavbarBrand>
                 <Collapse isOpen={this.state.isNavOpen} navbar>
