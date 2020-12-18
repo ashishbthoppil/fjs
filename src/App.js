@@ -5,7 +5,6 @@ import TopHeader from './components/TopHeaderComponent';
 import Footer from './components/FooterComponent';
 import About from './components/AboutComponent';
 import Service from './components/ServiceComponent';
-import Particles from 'react-tsparticles';
 import './App.css';
 
 function App() {

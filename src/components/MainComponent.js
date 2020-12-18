@@ -168,7 +168,7 @@ class Main extends Component{
             </div>
             <div className="row">
                 <div className="col-12 col-md-12 m-auto">
-                <Link to={process.env.PUBLIC_URL + "/service"} className="btn btn-info btnlink" style={{marginTop:'2em',float:'right'}}>Click here for more <span className="fa fa-arrow-right"></span></Link>
+                <Link to="/service" className="btn btn-info btnlink" style={{marginTop:'2em',float:'right'}}>Click here for more <span className="fa fa-arrow-right"></span></Link>
                 </div>
             </div>
            
@@ -216,7 +216,7 @@ class Main extends Component{
             </div>
             <div className="row">
                 <div className="col-12 col-md-12">
-                    <Link to={process.env.PUBLIC_URL + "/service"} className="btn btn-info btnlink" style={{marginTop:'2em',float:'right'}}>Click here for more <span className="fa fa-arrow-right"></span></Link>
+                    <Link to="/service" className="btn btn-info btnlink" style={{marginTop:'2em',float:'right'}}>Click here for more <span className="fa fa-arrow-right"></span></Link>
                 </div>
             </div>
         
