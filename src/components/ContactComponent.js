@@ -43,7 +43,7 @@ class Contact extends Component {
                         <div className="col-12">
                             <h3 style={{textAlign:'center'}}><strong>CONTACT US</strong></h3>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
-                            <div className="contactback" style={{backgroundImage:'url("https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/vision.jpg")', opacity : '100%'}}>
+                            <div className="contactback" style={{backgroundImage:'url("https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/vision.jpg")', opacity : '100%', fontFamily:'"DubaiW23-Bold",sans-serif'}}>
                                 <p style={{textAlign:'center'}}><i>"Customer satisfaction is the key to success for any business. We understand and follow this diligently."</i></p>
                                 <p><strong>Our customers are always our priority and we would love to hear from you. We encourage you to get in touch with us if you have any queries regarding any of our products or services. We would also love to hear from you if you have any suggestions on how we can assist you better. Your feedback is highly important to us. Write to us if you have an idea or feedback.</strong></p>
                             </div>
@@ -52,12 +52,12 @@ class Contact extends Component {
                 <Fade bottom>
                 <div className="row row-content" style={{marginBottom:"2em"}}>
                     <div className="col-12">
-                    <h3 style={{marginTop:"2em"}}>Location Information</h3>
+                    <h3 style={{marginTop:"2em", fontFamily:'"DubaiW23-Bold",sans-serif'}}>Location Information</h3>
                     <hr style={{backgroundColor:"#1d5797",height:"5px", float:"left", width:"5em", marginBottom:"2em"}}/>
                     </div>
                     <div className="col-12 col-sm-4 offset-sm-1" style={{border:"1px solid" ,borderColor:"#f2f2f2",boxShadow: "2px 3px #f2f2f2", padding:"15px", height:"290px"}}>
-                            <h5><strong>Our Address</strong></h5>
-                            <address>
+                            <h5 style={{fontFamily:'"DubaiW23-Bold",sans-serif'}}><strong>Our Address</strong></h5>
+                            <address style={{fontFamily:'"DubaiW23-Bold",sans-serif'}}>
                         <span style={{color:'#1d5797'}} className="fa fa-address-card" aria-hidden="true"></span>: FJS LOGISTICS DWC-LLC,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Business Center, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dubai World Central,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P.O. Box 182113, Dubai, U. A. E <br/>
                           <i style={{color:'#1d5797'}} className="fa fa-fax fa-lg"></i>: +971 48053900<br />
                           <i style={{color:'#1d5797'}} className="fa fa-phone fa-lg"></i>: +971 507163192 / +971 524131176<br />
@@ -73,7 +73,7 @@ class Contact extends Component {
                     <div className="col-12 col-sm-6 offset-sm-1" style={{border:"1px solid" ,borderColor:"#f2f2f2",boxShadow: "2px 3px #f2f2f2", padding:"15px"}}>
                         <h5><strong>Map of our Location</strong></h5>
                         <div id="map-container-google-1" className="z-depth-1-half map-container" style={{height: "500px"}}>
-                            <iframe src="https://maps.google.com/maps?q=Dubai World Central&t=&z=13&ie=UTF8&iwloc=&output=embed&z=15" frameborder="0"
+                            <iframe src="https://maps.google.com/maps?q=24.982449, 55.189044&t=&z=13&ie=UTF8&iwloc=&output=embed&z=17" frameborder="0"
                             style={{border:"0"}} allowfullscreen></iframe>
                         </div>
                     </div>

@@ -76,8 +76,6 @@ class Main extends Component{
                     </Card>
                 </div>
             </div>
-        {/* </div> */}
-        {/* <div className="container mission"> */}
             <div className="row missionrow">
                 <div className="col-12 col-md-6">
                     <Card style={{backgroundColor:"#1d5797",height:"300px", textAlign:"center"}}>
@@ -85,27 +83,19 @@ class Main extends Component{
                         <CardBody>
                             <CardTitle tag="h3" style={{textAlign:"center",color:"#ebf8ff"}}><strong>OUR VISION</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
-                            <CardText style={{color:"#ebf8ff"}}>
+                            <CardText style={{color:"#ebf8ff", padding:'20px'}}>
                                 Our vision is to become the customer’s first choice in the industry.
                             </CardText>
                         </CardBody>
                     </Card>
                 </div>
                 <div className="col-12 col-md-6">
-                    {/* <Card style={{height:"300px"}}>
-                        <CardBody style={{padding:"0px"}}> */}
-                            <img style={{height:"300px"}} className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/vision.jpg" height="298" width="539" alt="vision" />
-                        {/* </CardBody>
-                    </Card> */}
+                    <img style={{height:"300px"}} className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/vision.jpg" height="298" width="539" alt="vision" />
                 </div>
             </div>
             <div className="row missionrow2">
                 <div className="col-12 col-md-6">
-                    {/* <Card style={{height:"300px"}}>
-                        <CardBody style={{padding:"0px"}}> */}
-                            <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/mission.jpg" height="298" width="539" alt="mission" />
-                        {/* </CardBody> */}
-                    {/* </Card> */}
+                    <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/mission.jpg" height="298" width="539" alt="mission" />
                 </div>
                 <div className="col-12 col-md-6">
                     <Card style={{backgroundColor:"#1d5797",height:"300px", textAlign:"center"}}>
@@ -113,7 +103,7 @@ class Main extends Component{
                         <CardBody>
                             <CardTitle tag="h3" style={{textAlign:"center",color:"#ebf8ff"}}><strong>OUR MISSION</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
-                            <CardText style={{color:"#ebf8ff"}}>
+                            <CardText style={{color:"#ebf8ff", padding:'20px'}}>
                                 Our mission is to always put our customers first and provide them with the best quality products at the best rates.
                             </CardText>
                         </CardBody>

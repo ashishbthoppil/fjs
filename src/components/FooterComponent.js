@@ -21,8 +21,8 @@ function Footer(props){
                     </div>
                     <div className="col-7 col-sm-5">
                         <h5><strong>Our Address</strong></h5>
-                        <address>
-                        <span className="fa fa-address-card" aria-hidden="true"></span>: FJS LOGISTICS DWC-LLC,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Business Center, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dubai World Central,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P.O. Box 182113, Dubai, U. A. E <br/>
+                        <address style={{fontSize:'12px',fontFamily:'"DubaiW23-Bold",sans-serif'}}>
+                        <span className="fa fa-address-card" aria-hidden="true"></span>: FJS LOGISTICS DWC-LLC,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Business Center, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dubai World Central,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P.O. Box 182113, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dubai, U. A. E <br/>
                           <i className="fa fa-fax fa-lg"></i>: +971 48053900<br />
                           <i className="fa fa-phone fa-lg"></i>: +971 507163192 / +971 524131176<br />
                           <i className="fa fa-envelope fa-lg"></i>: <a style={{color:"#ebf8ff"}} href="mailto:t.thoppil@fjslogistics.com">

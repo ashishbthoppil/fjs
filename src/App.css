@@ -11,18 +11,22 @@
 }
 
 h2, h3 {
-  font-family: "Proxima Nova", Helvetica, Arial;
+  font-family: '"DubaiW23-Bold",sans-serif';
 }
 
 .btnlink{
  background-color: #1d5797;
- font-family: "Proxima Nova", Helvetica, Arial;
+ font-family: '"DubaiW23-Bold",sans-serif';
 }
 
 .btnlink:hover{
   background-color: #ebf8ff;
   color: #1d5797;
   transition-duration: 0.2s;
+}
+
+.breadcrumb{
+  font-family: '"DubaiW23-Bold",sans-serif';
 }
 
 .jumbotron {
@@ -51,6 +55,7 @@ h2, h3 {
   color: #ebf8ff;
   margin:50px 0px auto;
   padding: 20px 0px 20px 0px;
+  font-family: "Proxima Nova", Helvetica, Arial;
 }
 
 .nav-item{
@@ -58,26 +63,23 @@ h2, h3 {
   font-size: 15px;
 }
 
-.navbar-nav{
-  position:absolute;
-  right : 10px;
-}
 
 .carousel-caption h3{
-  padding-bottom: 350px;
   font-size: 51px;
   color:#ebf8ff;
-  font-weight:900;
-  font-family: "Proxima Nova", Helvetica, Arial;
+  font-weight:bold;
+  font-family: '"DubaiW23-Bold",sans-serif';
+  padding-bottom: 280px;
 }
 
-.thumb{
-  display: none !important;
+
+.carousel-item {
+  justify-content: center;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
-.carousel-status{
-  display: none !important;
-}
 
 .legend{
   background: transparent !important;
@@ -179,3 +181,4 @@ img:not(#logo){
   .director{
     margin-top: 2em;
   }
+

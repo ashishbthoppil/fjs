@@ -24,7 +24,7 @@ class About extends Component{
                 <h3 style={{textAlign:'center'}}><strong>ABOUT US</strong></h3>
                 <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                 <div className="contactback" style={{backgroundImage:'url("https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/vision.jpg")', opacity : '100%'}}>
-                    <p style={{textAlign:"center", opacity:"90%"}}><strong>FJS logistics provides the best services and solutions to its customers, offers timely delivery, and excellent support services without arbitrating on the quality and all this at economical rates.</strong></p>
+                    <p style={{textAlign:"center", opacity:"90%", fontFamily:'"DubaiW23-Bold",sans-serif'}}><strong>FJS logistics provides the best services and solutions to its customers, offers timely delivery, and excellent support services without arbitrating on the quality and all this at economical rates.</strong></p>
                 </div>
             </div>
         </div>
@@ -77,8 +77,8 @@ class About extends Component{
                         <CardBody>
                             <CardTitle tag="h3" style={{textAlign:"center",color:"#ebf8ff"}}><strong>OUR VISION</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
-                            <CardText style={{color:"#ebf8ff"}}>
-                                Our vision is to become the customer’s first choice in the industry.
+                            <CardText style={{color:"#ebf8ff", padding:'20px'}}>
+                                <p>Our vision is to become the customer’s first choice in the industry.</p>
                             </CardText>
                         </CardBody>
                     </Card>
@@ -86,11 +86,8 @@ class About extends Component{
                 </Fade>
                 <Fade right>
                 <div className="col-12 col-md-6">
-                    {/* <Card style={{height:"300px"}}>
-                        <CardBody style={{padding:"0px"}}> */}
-                            <img style={{height:"300px"}} className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/vision.jpg" height="298" width="539" alt="vision" />
-                        {/* </CardBody>
-                    </Card> */}
+                    <img style={{height:"300px"}} className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/vision.jpg" height="298" width="539" alt="vision" />
+                        
                 </div>
                 </Fade>
             </div>
@@ -99,11 +96,8 @@ class About extends Component{
             <div className="row missionrow2">
             <Fade left>
                 <div className="col-12 col-md-6">
-                    {/* <Card style={{height:"300px"}}>
-                        <CardBody style={{padding:"0px"}}> */}
-                            <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/mission.jpg" height="300" width="539" alt="mission" />
-                        {/* </CardBody>
-                    </Card> */}
+                    <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/mission.jpg" height="300" width="539" alt="mission" />
+                      
                 </div>
                 </Fade>
                 <Fade right>
@@ -113,7 +107,7 @@ class About extends Component{
                         <CardBody>
                             <CardTitle tag="h3" style={{textAlign:"center",color:"#ebf8ff"}}><strong>OUR MISSION</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
-                            <CardText style={{color:"#ebf8ff"}}>
+                            <CardText style={{color:"#ebf8ff", padding:'20px'}}>
                                 Our mission is to always put our customers first and provide them with the best quality products at the best rates.
                             </CardText>
                         </CardBody>
