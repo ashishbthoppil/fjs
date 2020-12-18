@@ -59,12 +59,12 @@ class TopHeader extends Component{
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-md-6 m-auto">
-                        <span style={{color:"#ebf8ff"}}>Contact us :</span><a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/thankappenthoppil/" target="_blank">
+                        <span style={{color:"#ebf8ff"}}><strong>Contact us</strong> :</span><a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/thankappenthoppil/" target="_blank">
                         <FontAwesomeIcon icon={faLinkedin} style={{fontSize:"20px", color:"#ebf8ff"}}/></a>
                         <a className="btn btn-social-icon" href="mailto:t.thoppil@fjslogistics.com"><i className="fa fa-envelope" style={{fontSize:"20px", color:"#ebf8ff"}}></i></a>
                     </div>
                     <div className="col-12 col-md-6 m-auto">
-                    <span style={{color:"#ebf8ff", float:'right'}}>Tel no. : +971 48053900 / +971 524131176 </span>
+                    <span style={{color:"#ebf8ff", float:'right'}}><strong>Tel no. </strong>: +971 48053900 / +971 524131176 </span>
                     </div>
                 </div>
             </div>
