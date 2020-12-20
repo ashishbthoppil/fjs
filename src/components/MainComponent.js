@@ -54,7 +54,18 @@ class Main extends Component{
         <Fade bottom>
             <div className="row aboutusrow">
                 <div className="col-12 col-md-6">
-                    <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/about.jpg" height="480" width="490" alt="aboutus" />
+                    {/* <Card> */}
+                    <div className="row">
+                        <div className="col-12 col-md-12">
+                            <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/about.jpg" height="480" width="490" alt="aboutus" />
+                        </div>
+                    </div>
+                    <div className="row" style={{marginTop:"10px"}}>
+                        <div className="col-12 col-md-12">
+                            <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/FJSabout.png" height="280" width="290" alt="FJS"/>
+                        </div>
+                    </div>
+                    {/* </Card> */}
                 </div>
                 <div className="col-12 col-md-6">
                     <Card>
@@ -125,7 +136,7 @@ class Main extends Component{
                     </Card>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/quality.jpg" height="430" width="580" alt="quality" />
+                    <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/quality1.jpg" height="430" width="580" alt="quality" />
                 </div>
             </div>
             
