@@ -32,7 +32,12 @@ class About extends Component{
         <Fade bottom>
             <div className="row aboutusrow">
                 <div className="col-12 col-md-6">
-                    <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/aboutus.jpg" height="480" width="490" alt="aboutus" />
+                    <div className="row">
+                        <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/about.jpg" height="480" width="490" alt="aboutus" />
+                    </div>
+                    <div className="row">
+                        <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/about.jpg" height="480" width="490" alt="aboutus" />
+                    </div>
                 </div>
                 <div className="col-12 col-md-6">
                     <Card style={{border:'none', boxShadow:'none'}}>
