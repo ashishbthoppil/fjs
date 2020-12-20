@@ -53,11 +53,11 @@ class Main extends Component{
         <div className="container">
         <Fade bottom>
             <div className="row aboutusrow">
-                <div className="col-12 col-md-6 m-auto">
+                <div className="col-12 col-md-6">
                     <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/aboutus.jpg" height="480" width="490" alt="aboutus" />
                 </div>
                 <div className="col-12 col-md-6">
-                    <Card style={{marginTop:'20px'}}>
+                    <Card>
                         <CardBody>
                             <CardTitle tag="h3"><strong>ABOUT US</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -65,8 +65,8 @@ class Main extends Component{
                             <p>FJS logistics provides the best services and solutions to its customers, offers timely delivery, and
                             excellent support services without arbitrating on the quality and all this at economical rates.</p>
                             <p>Strategically headquartered in Dubai, with its warehouse space in DIP-2 that provides quick
-                            access to numerous main roads and business hubs and owning a spacious total area of 25,700 sq
-                            meters, and a built-up area of 10,000 sq meters, including Bulk and Racked storage area. FJS
+                            access to numerous main roads and business hubs and owning a spacious total area of 12,500 sq
+                            meters, and a built-up area of 7,500 sq meters, including Bulk and Racked storage area. FJS
                             logistics offers an array of services to suit the diverse needs of the customers and also to keep up
                             with the fast-paced trends of the market. Owning to its broad network, use of cutting-edge
                             technology and market-expertise, the company strives to be amongst the leaders in its respective

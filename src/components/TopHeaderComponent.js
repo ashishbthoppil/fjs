@@ -27,10 +27,10 @@ class TopHeader extends Component{
             <div className="container">
                 <NavbarToggler onClick={this.toggleNav} />
                 <NavbarBrand className="mr-auto">
-                    <img id="logo" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/logo.jpg" height="50" width="90" alt="FJS" />
+                    <img id="logo" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/logo.jpg" height="70" width="130" alt="FJS" />
                 </NavbarBrand>
                 <Collapse isOpen={this.state.isNavOpen} navbar>
-                <Nav className="ml-auto" navbar>
+                <Nav className="ml-auto" navbar style={{position:'absolute', bottom:"25px",right:"50px"}}>
                     <NavItem>
                         <NavLink className="nav-link" to="/home">
                             <span className="fa fa-home fa-lg"></span><strong> HOME</strong>
@@ -64,7 +64,7 @@ class TopHeader extends Component{
                         <a className="btn btn-social-icon" href="mailto:t.thoppil@fjslogistics.com"><i className="fa fa-envelope" style={{fontSize:"20px", color:"#ebf8ff"}}></i></a>
                     </div>
                     <div className="col-12 col-md-6 m-auto">
-                    <span style={{color:"#ebf8ff", float:'right', fontFamily:'"Proxima Nova", Helvetica, Arial'}}><strong>Tel no. </strong>: +971 48053900 / +971 524131176 </span>
+                    <span style={{color:"#ebf8ff", float:'right', fontFamily:'"Proxima Nova", Helvetica, Arial'}}><strong>Tel no. </strong>: +971 4 805 3900 / +971 50 716 3192 </span>
                     </div>
                 </div>
             </div>
