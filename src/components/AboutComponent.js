@@ -24,7 +24,7 @@ class About extends Component{
                 <h3 style={{textAlign:'center'}}><strong>ABOUT US</strong></h3>
                 <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                 <div className="contactback" style={{backgroundImage:'url("https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/vision.jpg")', opacity : '100%'}}>
-                    <p style={{textAlign:"center", opacity:"90%", fontFamily:'"DubaiW23-Bold",sans-serif'}}><strong>FJS logistics provides the best services and solutions to its customers, offers timely delivery, and excellent support services without arbitrating on the quality and all this at economical rates.</strong></p>
+                    <p style={{textAlign:"center", opacity:"90%"}}><strong>FJS logistics provides the best services and solutions to its customers, offers timely delivery, and excellent support services without arbitrating on the quality and all this at economical rates.</strong></p>
                 </div>
             </div>
         </div>
@@ -135,7 +135,7 @@ class About extends Component{
                     </Card>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/quality1.jpg" height="430" width="580" alt="quality" />
+                    <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/quality.jpg" height="430" width="580" alt="quality" />
                 </div>
             </div>
             </Fade>
