@@ -11,12 +11,17 @@ class Main extends Component{
     }
 
     componentDidMount(props){
-        let i = 0;
-        for(i=0;i<5;i++){
-            document.getElementsByClassName('carousel-caption')[i].classList.remove('d-none');
-            document.getElementsByClassName('carousel-caption')[i].classList.remove('d-md-block');
-            document.getElementsByClassName('carousel-caption')[i].classList.add('font-weight-bold');
-        }
+        // let i = 0;
+        // for(i=0;i<5;i++){
+        //     let width = window.screen.width;
+        //     if(width < 600){
+        //         console.log("1")
+        //         document.getElementsByClassName('carousel-caption')[i].classList.remove('d-none');
+        //     document.getElementsByClassName('carousel-caption')[i].classList.remove('d-md-block');
+        //     }
+        //     // document.getElementsByClassName('carousel-caption')[i].classList.add('font-weight-bold');
+            
+        // }
     }
     
 
@@ -103,7 +108,7 @@ class Main extends Component{
                     </Card>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img style={{height:"300px", marginTop : "10px", marginBottom: "10px"}} className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/vision.jpg" height="298" width="539" alt="vision" />
+                    <img style={{height:"300px", marginBottom: "10px"}} className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/vision.jpg" height="298" width="539" alt="vision" />
                 </div>
             </div>
             <div className="row missionrow2">
@@ -204,7 +209,7 @@ class Main extends Component{
                 <div className="col-12 col-md-4">
                     <Card style={{height:"500px", marginTop:'20px'}}>
                         <CardBody>
-                        <CardImg className="img-fluid" variant="top" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/inventory.jpg" height="205" style={{padding:"0px",margin:"0px"}}></CardImg>
+                        <CardImg className="img-fluid" variant="top" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/inventory.jpg" height="405" style={{padding:"0px",margin:"0px"}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px", fontSize:"20px"}}>INVENTORY MANAGEMENT</CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
