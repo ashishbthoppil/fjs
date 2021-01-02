@@ -55,7 +55,7 @@ class TopHeader extends Component{
                 </Collapse>
             </div>
         </Navbar>
-        <Jumbotron>
+        {/* <Jumbotron>
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-md-6 m-auto">
@@ -68,7 +68,7 @@ class TopHeader extends Component{
                     </div>
                 </div>
             </div>
-        </Jumbotron>
+        </Jumbotron> */}
         </>
         );
     }
