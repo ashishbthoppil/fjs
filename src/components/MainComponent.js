@@ -1,76 +1,78 @@
 import React, { Component } from 'react';
-import { UncontrolledCarousel, Card, CardBody, 
-         CardTitle, CardText, CardImg, Button} from 'reactstrap';
+import { UncontrolledCarousel, Card, CardBody, CardTitle, CardText, CardImg} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+// import FJSCarousel from "./CarouselComponent";
 
 class Main extends Component{
     constructor(props){
         super(props);
-        this.state = {
-            items : [
-                {
-                    src: 'https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/carousel2.jpg',
-                    altText: 'Shipping & Cargo Clearing',
-                    header: 'Shipping & Cargo Clearing',
-                    key: '1'
-                  },
-                  {
-                    src: 'https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/carousel1.jpg',
-                    altText: 'General Warehousing',
-                    header: 'General Warehousing',
-                    key: '2'
-                  },
-                  {
-                    src: 'https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/carousel3.jpg',
-                    altText: 'Freight Forwarding & Logistics',
-                    header: 'Freight Forwarding & Logistics',
-                    key: '3'
-                  },
-                  {
-                    src: 'https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/carousel4.jpg',
-                    altText: 'Cargo Clearing',
-                    header: 'Cargo Clearing',
-                    key: '4'
-                  },
-                  {
-                    src: 'https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/carousel5.jpg',
-                    altText: 'Transportation',
-                    header: 'Transportation',
-                    key: '5'
-                  }
-            ]
-        }
     }
 
+    componentDidMount(props){
+        let i = 0;
+        for(i=0;i<5;i++){
+            document.getElementsByClassName('carousel-caption')[i].classList.remove('d-none');
+            document.getElementsByClassName('carousel-caption')[i].classList.remove('d-md-block');
+            document.getElementsByClassName('carousel-caption')[i].classList.add('font-weight-bold');
+        }
+    }
+    
+
     render(){
+        const items = [
+            {
+                src: 'https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/carousel2.jpg',
+                altText: 'Shipping & Cargo Clearing',
+                caption: 'Shipping & Cargo Clearing',
+                key: '1'
+              },
+              {
+                src: 'https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/carousel1.jpg',
+                altText: 'General Warehousing',
+                caption: 'General Warehousing',
+                key: '2'
+              },
+              {
+                src: 'https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/carousel3.jpg',
+                altText: 'Freight Forwarding & Logistics',
+                caption: 'Freight Forwarding & Logistics',
+                key: '3'
+              },
+              {
+                src: 'https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/carousel4.jpg',
+                altText: 'Cargo Clearing',
+                caption: 'Cargo Clearing',
+                key: '4'
+              },
+              {
+                src: 'https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/carousel5.jpg',
+                altText: 'Transportation',
+                caption: 'Transportation',
+                key: '5'
+              }
+        ];
+
         return(
     <>
         <div>
-            <UncontrolledCarousel interval={2500} style={{height:'auto'}} items={this.state.items} />
+            <UncontrolledCarousel interval={2500} style={{height:'auto'}} items={items} />
         </div>
         <div className="container">
         <Fade bottom>
             <div className="row aboutusrow">
-                <div className="col-12 col-md-6">
-                    {/* <Card> */}
+                <div className="col-12 col-md-6" style={{marginBottom:"10px"}}>
                     <div className="row">
                         <div className="col-12 col-md-12">
-                            <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/about.jpg" height="480" width="490" alt="aboutus" />
+                            <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/newabout.jpg" width="520" alt="aboutus" />
                         </div>
                     </div>
-                    <div className="row" style={{marginTop:"10px"}}>
-                        <div className="col-12 col-md-12">
-                            <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/FJSabout.png" height="280" width="290" alt="FJS"/>
-                        </div>
-                    </div>
-                    {/* </Card> */}
                 </div>
                 <div className="col-12 col-md-6">
                     <Card>
                         <CardBody>
-                            <CardTitle tag="h3"><strong>ABOUT US</strong></CardTitle>
+                            <CardTitle tag="h3">ABOUT US</CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
                             <p>FJS logistics provides the best services and solutions to its customers, offers timely delivery, and
@@ -101,12 +103,12 @@ class Main extends Component{
                     </Card>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img style={{height:"300px"}} className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/vision.jpg" height="298" width="539" alt="vision" />
+                    <img style={{height:"300px", marginTop : "10px", marginBottom: "10px"}} className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/vision.jpg" height="298" width="539" alt="vision" />
                 </div>
             </div>
             <div className="row missionrow2">
                 <div className="col-12 col-md-6">
-                    <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/mission.jpg" height="298" width="539" alt="mission" />
+                    <img style={{height:"300px", marginBottom: "10px"}}  className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/mission.jpg" height="298" width="539" alt="mission" />
                 </div>
                 <div className="col-12 col-md-6">
                     <Card style={{backgroundColor:"#1d5797",height:"300px", textAlign:"center"}}>
@@ -135,7 +137,7 @@ class Main extends Component{
                         </CardBody>
                     </Card>
                 </div>
-                <div className="col-12 col-md-6">
+                <div className="col-12 col-md-6" style={{marginTop:"10px"}}>
                     <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/quality1.jpg" height="430" width="580" alt="quality" />
                 </div>
             </div>
@@ -146,7 +148,7 @@ class Main extends Component{
                 <div className="col-12 col-md-4">
                     <Card style={{marginTop:'20px'}}>
                         <CardBody>
-                            <CardTitle tag="h6"><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-ship"></span><strong>  CROSS DOCKING</strong></CardTitle>
+                            <CardTitle tag="h6" style={{fontSize:"20px"}}><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-ship"></span> CROSS DOCKING</CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
                             <p>All our products and services go through a series of stringent quality control checks to ensure only the best ones reach our valued customers.</p><p> Being strict on quality control not only helps us in identifying the loopholes but also encourages us to constantly improve our techniques.</p>
@@ -157,7 +159,7 @@ class Main extends Component{
                 <div className="col-12 col-md-4">
                     <Card style={{marginTop:'20px'}}>
                         <CardBody>
-                            <CardTitle tag="h6"><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-archive"></span><strong>  GENERAL WAREHOUSING</strong></CardTitle>
+                            <CardTitle tag="h6" style={{fontSize:"20px"}}><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-archive"></span> GENERAL WAREHOUSING</CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
                             <p>All our products and services go through a series of stringent quality control checks to ensure only the best ones reach our valued customers.</p><p> Being strict on quality control not only helps us in identifying the loopholes but also encourages us to constantly improve our techniques.</p>
@@ -168,7 +170,7 @@ class Main extends Component{
                 <div className="col-12 col-md-4">
                     <Card style={{marginTop:'20px'}}>
                         <CardBody>
-                            <CardTitle tag="h6"><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-truck"></span><strong>  FREIGHT FORWARDING</strong></CardTitle>
+                            <CardTitle tag="h6" style={{fontSize:"20px"}}><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-truck"></span> FREIGHT FORWARDING</CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
                             <p>All our products and services go through a series of stringent quality control checks to ensure only the best ones reach our valued customers.</p><p> Being strict on quality control not only helps us in identifying the loopholes but also encourages us to constantly improve our techniques.</p>
@@ -182,9 +184,8 @@ class Main extends Component{
                 <Link to="/service" className="btn btn-info btnlink" style={{marginTop:'2em',float:'right'}}>Click here for more <span className="fa fa-arrow-right"></span></Link>
                 </div>
             </div>
-           
-        {/* </div> */}
-        {/* <div className="container valueadded"> */}
+
+
             <h2 style={{textAlign:"center", marginTop:'120px'}}><strong>VALUE ADDED SERVICES</strong></h2>
             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left", width:"20%"}}/>
             <div className="row valueaddedrow">
@@ -192,7 +193,7 @@ class Main extends Component{
                     <Card style={{height:"500px", marginTop:'20px'}}>
                         <CardBody>
                             <CardImg variant="top" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/packing.jpg" style={{padding:"0px",margin:"0px"}}></CardImg>
-                            <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  PACKING</strong></CardTitle>
+                            <CardTitle tag="h6" style={{marginTop:"15px", fontSize:"20px"}}>PACKING</CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
                             <p>The Company also takes care of packaging for the good and does replenishing corrugated packaging solutions for companies and clients. Packing the goods safely into designated cartons or containers designed according to specific requirements of clients.</p>
@@ -204,7 +205,7 @@ class Main extends Component{
                     <Card style={{height:"500px", marginTop:'20px'}}>
                         <CardBody>
                         <CardImg className="img-fluid" variant="top" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/inventory.jpg" height="205" style={{padding:"0px",margin:"0px"}}></CardImg>
-                            <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  INVENTORY MANAGEMENT</strong></CardTitle>
+                            <CardTitle tag="h6" style={{marginTop:"15px", fontSize:"20px"}}>INVENTORY MANAGEMENT</CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
                             <p>Inventory management can be a very tedious task; it involves various different processes like ordering, storing, rechecking, etc. It includes the management of raw materials as well and of components and finished products, as well as warehousing and processing such items.</p>
@@ -216,7 +217,7 @@ class Main extends Component{
                     <Card style={{height:"500px",marginTop:'20px'}}>
                         <CardBody>
                             <CardImg variant="top" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/import.jpg" style={{padding:"0px",margin:"0px"}}></CardImg>
-                            <CardTitle tag="h6" style={{marginTop:"15px"}}><strong>  IMPORT/EXPORT SERVICES</strong></CardTitle>
+                            <CardTitle tag="h6" style={{marginTop:"15px", fontSize:"20px"}}>IMPORT/EXPORT SERVICES</CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
                             <p>FJS logistics takes the responsibility for export customs clearance as well as for the import process to reduce the burden on its clients.</p>

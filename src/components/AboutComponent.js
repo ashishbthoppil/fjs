@@ -12,7 +12,6 @@ class About extends Component{
     render(){
         return(
         <>
-        
         <div className="container">
         <Fade bottom>
         <div className="row">
@@ -33,10 +32,9 @@ class About extends Component{
             <div className="row aboutusrow">
                 <div className="col-12 col-md-6">
                     <div className="row">
-                        <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/about.jpg" height="480" width="490" alt="aboutus" />
-                    </div>
-                    <div className="row" style={{marginTop:"10px"}}>
-                        <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/FJSabout.png" height="480" width="490" alt="aboutus" />
+                        <div className="col-12 col-md-12">
+                            <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/newabout.jpg" width="520" alt="aboutus" />
+                        </div>
                     </div>
                 </div>
                 <div className="col-12 col-md-6">
@@ -135,7 +133,7 @@ class About extends Component{
                     </Card>
                 </div>
                 <div className="col-12 col-md-6">
-                    <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/quality.jpg" height="430" width="580" alt="quality" />
+                    <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/quality1.jpg" height="430" width="580" alt="quality" />
                 </div>
             </div>
             </Fade>

@@ -33,7 +33,7 @@ class TopHeader extends Component{
                 <Nav className="ml-auto" navbar style={{position:'absolute', bottom:"25px",right:"50px"}}>
                     <NavItem>
                         <NavLink className="nav-link" to="/home">
-                            <span className="fa fa-home fa-lg"></span><strong> HOME</strong>
+                        <strong><span className="fa fa-home fa-lg"></span> HOME</strong>
                         </NavLink>
                     </NavItem>
                     <NavItem>
@@ -59,12 +59,12 @@ class TopHeader extends Component{
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-md-6 m-auto">
-                        <span style={{color:"#ebf8ff", fontFamily:'"Proxima Nova", Helvetica, Arial'}}><strong>Contact us</strong> :</span><a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/thankappenthoppil/" target="_blank">
+                        <span style={{color:"#ebf8ff"}}><strong>Contact us</strong> :</span><a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/thankappenthoppil/" target="_blank">
                         <FontAwesomeIcon icon={faLinkedin} style={{fontSize:"20px", color:"#ebf8ff"}}/></a>
                         <a className="btn btn-social-icon" href="mailto:t.thoppil@fjslogistics.com"><i className="fa fa-envelope" style={{fontSize:"20px", color:"#ebf8ff"}}></i></a>
                     </div>
                     <div className="col-12 col-md-6 m-auto">
-                    <span style={{color:"#ebf8ff", float:'right', fontFamily:'"Proxima Nova", Helvetica, Arial'}}><strong>Tel no. </strong>: +971 4 805 3900 / +971 50 716 3192 </span>
+                    <span style={{color:"#ebf8ff", float:'right'}}><strong>Tel no. </strong>: +971 4 805 3900 / +971 50 716 3192 </span>
                     </div>
                 </div>
             </div>
