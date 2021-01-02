@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/fjs/static/css/main.a4558410.chunk.css",
-    "main.js": "/fjs/static/js/main.aff68136.chunk.js",
-    "main.js.map": "/fjs/static/js/main.aff68136.chunk.js.map",
+    "main.css": "/fjs/static/css/main.e0bc9b94.chunk.css",
+    "main.js": "/fjs/static/js/main.12ca31dd.chunk.js",
+    "main.js.map": "/fjs/static/js/main.12ca31dd.chunk.js.map",
     "runtime-main.js": "/fjs/static/js/runtime-main.a54fcf96.js",
     "runtime-main.js.map": "/fjs/static/js/runtime-main.a54fcf96.js.map",
     "static/css/2.315f9569.chunk.css": "/fjs/static/css/2.315f9569.chunk.css",
@@ -12,14 +12,15 @@
     "static/js/3.350245c7.chunk.js.map": "/fjs/static/js/3.350245c7.chunk.js.map",
     "index.html": "/fjs/index.html",
     "static/css/2.315f9569.chunk.css.map": "/fjs/static/css/2.315f9569.chunk.css.map",
-    "static/css/main.a4558410.chunk.css.map": "/fjs/static/css/main.a4558410.chunk.css.map",
-    "static/js/2.4f809a1e.chunk.js.LICENSE.txt": "/fjs/static/js/2.4f809a1e.chunk.js.LICENSE.txt"
+    "static/css/main.e0bc9b94.chunk.css.map": "/fjs/static/css/main.e0bc9b94.chunk.css.map",
+    "static/js/2.4f809a1e.chunk.js.LICENSE.txt": "/fjs/static/js/2.4f809a1e.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/fjs/static/media/Proxima_Nova_Regular.ea03f826.otf"
   },
   "entrypoints": [
     "static/js/runtime-main.a54fcf96.js",
     "static/css/2.315f9569.chunk.css",
     "static/js/2.4f809a1e.chunk.js",
-    "static/css/main.a4558410.chunk.css",
-    "static/js/main.aff68136.chunk.js"
+    "static/css/main.e0bc9b94.chunk.css",
+    "static/js/main.12ca31dd.chunk.js"
   ]
 }
