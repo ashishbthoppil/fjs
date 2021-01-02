@@ -11,17 +11,15 @@ class Main extends Component{
     }
 
     componentDidMount(props){
-        // let i = 0;
-        // for(i=0;i<5;i++){
-        //     let width = window.screen.width;
-        //     if(width < 600){
-        //         console.log("1")
-        //         document.getElementsByClassName('carousel-caption')[i].classList.remove('d-none');
-        //     document.getElementsByClassName('carousel-caption')[i].classList.remove('d-md-block');
-        //     }
-        //     // document.getElementsByClassName('carousel-caption')[i].classList.add('font-weight-bold');
-            
-        // }
+        let i = 0;
+        for(i=0;i<5;i++){
+            let width = window.screen.width;
+            if(width < 600){
+                console.log("1")
+                document.getElementsByClassName('carousel-caption')[i].classList.remove('d-none');
+            document.getElementsByClassName('carousel-caption')[i].classList.remove('d-md-block');
+            }
+        }
     }
     
 

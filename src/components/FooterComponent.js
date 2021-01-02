@@ -13,10 +13,10 @@ function Footer(props){
                     <div className="col-4 offset-1 col-sm-2">
                         <h5><strong><u>Links</u></strong></h5>
                         <ul className="list-unstyled">
-                            <li><Link to={process.env.PUBLIC_URL + "/home"} style={{color:"#ebf8ff"}}>Home</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/aboutus"} style={{color:"#ebf8ff"}}>About Us</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/service"} style={{color:"#ebf8ff"}}>Services</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/contactus"} style={{color:"#ebf8ff"}}>Contact Us</Link></li>
+                            <li><Link to="/home" style={{color:"#ebf8ff"}}>Home</Link></li>
+                            <li><Link to="/aboutus" style={{color:"#ebf8ff"}}>About Us</Link></li>
+                            <li><Link to="/service" style={{color:"#ebf8ff"}}>Services</Link></li>
+                            <li><Link to="/contactus" style={{color:"#ebf8ff"}}>Contact Us</Link></li>
                         </ul>
                     </div>
                     <div className="col-7 col-sm-5">

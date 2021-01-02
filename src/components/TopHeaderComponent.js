@@ -30,7 +30,7 @@ class TopHeader extends Component{
                     <img id="logo" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/logo.jpg" height="70" width="130" alt="FJS" />
                 </NavbarBrand>
                 <Collapse isOpen={this.state.isNavOpen} navbar>
-                <Nav className="ml-auto" navbar style={{position:'absolute', bottom:"25px",right:"50px"}}>
+                <Nav className="ml-auto" navbar style={{ bottom:"25px",right:"50px"}}>
                     <NavItem>
                         <NavLink className="nav-link" to="/home">
                         <strong><span className="fa fa-home fa-lg"></span> HOME</strong>

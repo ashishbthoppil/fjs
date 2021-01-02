@@ -306,7 +306,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                 <div className="col-12 col-md-4">
                     <Card style={{minHeight:"555px",marginTop:'20px',height:'auto'}}>
                         <CardBody>
-                        <CardImg variant="top" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/consolidation1.jpg" height="205" style={{padding:"0px",margin:"0px", height:'205px'}}></CardImg>
+                        <CardImg variant="top" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/Consolidation1.jpg" height="205" style={{padding:"0px",margin:"0px", height:'205px'}}></CardImg>
                             <CardTitle tag="h6" style={{marginTop:"15px", fontSize:"19px"}}><strong>  CONSOLIDATION</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
