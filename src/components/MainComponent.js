@@ -80,7 +80,7 @@ class Main extends Component{
                             excellent support services without arbitrating on the quality and all this at economical rates.</p>
                             <p>Strategically headquartered in Dubai, with its warehouse space in DIP-2 that provides quick
                             access to numerous main roads and business hubs and owning a spacious total area of 12,500 sq
-                            meters, and a built-up area of 7,500 sq meters, including Bulk and Racked storage area. FJS
+                            meters, and a built-up area of 7,500 sq meters, including Bulk and Racked storage area and an open yard storage facility of 10000 Sq Mtr in Dubai Industrial City. FJS
                             logistics offers an array of services to suit the diverse needs of the customers and also to keep up
                             with the fast-paced trends of the market. Owning to its broad network, use of cutting-edge
                             technology and market-expertise, the company strives to be amongst the leaders in its respective
