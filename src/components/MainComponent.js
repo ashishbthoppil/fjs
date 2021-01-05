@@ -66,7 +66,7 @@ class Main extends Component{
                 <div className="col-12 col-md-6" style={{marginBottom:"10px"}}>
                     <div className="row">
                         <div className="col-12 col-md-12">
-                            <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/newabout.jpg" width="520" alt="aboutus" />
+                            <img className="img-fluid" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/newabout.jpg" width="550" alt="aboutus" />
                         </div>
                     </div>
                 </div>
