@@ -9,6 +9,10 @@ class About extends Component{
         super(props)
     }
 
+    componentDidMount(props){
+        window.scrollTo(0, 0);
+    }
+
     render(){
         return(
         <>

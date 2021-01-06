@@ -16,6 +16,10 @@ class Contact extends Component {
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
+    componentDidMount(props){
+        window.scrollTo(0, 0);
+    }
+
     handleSubmit(values){
         const templateId = 'template_ydo94vc';
 

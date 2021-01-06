@@ -10,6 +10,11 @@ class Service extends Component{
     constructor(props){
         super(props)
     }
+
+    componentDidMount(props){
+        window.scrollTo(0, 0);
+    }
+
     render(){
         return(
             <>

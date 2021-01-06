@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
-import { UncontrolledCarousel, Card, CardBody, CardTitle, CardText, CardImg} from 'reactstrap';
+import { UncontrolledCarousel, Card, CardBody, CardTitle, CardText, CardImg, Media} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWarehouse, faTools, faBoxes, faShoppingBasket, faExchangeAlt, faTimesCircle, faNetworkWired, faObjectGroup, faFileAlt, faTruckLoading, faTruckMoving, faLock, faGlobeAsia, faGlobe } from '@fortawesome/free-solid-svg-icons'
+
 // import FJSCarousel from "./CarouselComponent";
 
 class Main extends Component{
@@ -11,6 +14,7 @@ class Main extends Component{
     }
 
     componentDidMount(props){
+        window.scrollTo(0, 0);
         let i = 0;
         for(i=0;i<5;i++){
         document.getElementsByClassName('carousel-caption')[i].classList.remove('d-none');
@@ -145,95 +149,106 @@ class Main extends Component{
             
             <h2 style={{textAlign:"center", marginTop:'200px'}}><strong>OUR SERVICES</strong></h2>
             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left", width:"20%"}}/>
+            </Fade>
+            <Fade left>
             <div className="row servicesrow">
-                <div className="col-12 col-md-4">
+                <div className="col-12 col-md-12">
                     <Card style={{marginTop:'20px'}}>
                         <CardBody>
-                            <CardTitle tag="h6" style={{fontSize:"20px"}}><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-ship"></span> CROSS DOCKING</CardTitle>
+                            <CardTitle tag="h6" style={{fontSize:"20px"}}><FontAwesomeIcon icon={faGlobe} style={{fontSize:"30px", color:"#1d5797"}}/> 3<sub>rd</sub> PARTY LOGISTICS</CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
-                            <p>All our products and services go through a series of stringent quality control checks to ensure only the best ones reach our valued customers.</p><p> Being strict on quality control not only helps us in identifying the loopholes but also encourages us to constantly improve our techniques.</p>
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-4">
-                    <Card style={{marginTop:'20px'}}>
-                        <CardBody>
-                            <CardTitle tag="h6" style={{fontSize:"20px"}}><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-archive"></span> GENERAL WAREHOUSING</CardTitle>
-                            <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
-                            <CardText>
-                            <p>All our products and services go through a series of stringent quality control checks to ensure only the best ones reach our valued customers.</p><p> Being strict on quality control not only helps us in identifying the loopholes but also encourages us to constantly improve our techniques.</p>
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-4">
-                    <Card style={{marginTop:'20px'}}>
-                        <CardBody>
-                            <CardTitle tag="h6" style={{fontSize:"20px"}}><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-truck"></span> FREIGHT FORWARDING</CardTitle>
-                            <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
-                            <CardText>
-                            <p>All our products and services go through a series of stringent quality control checks to ensure only the best ones reach our valued customers.</p><p> Being strict on quality control not only helps us in identifying the loopholes but also encourages us to constantly improve our techniques.</p>
+                            <p>Gain complete and customized control over your logistics , with our 3PL Logistics Services.</p>
                             </CardText>
                         </CardBody>
                     </Card>
                 </div>
             </div>
+            </Fade>
+            <Fade right>
+            <div className="row servicesrow">
+                <div className="col-12 col-md-12">
+                    <Card>
+                        <CardBody>
+                            <CardTitle tag="h6" style={{fontSize:"20px"}}><FontAwesomeIcon icon={faWarehouse} style={{fontSize:"30px", color:"#1d5797"}}/> GENERAL WAREHOUSING</CardTitle>
+                            <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
+                            <CardText>
+                            <p>The company also offers General Warehousing that means different
+Non-perishable goods like apparels, manufacturing raw material, automobile components, industrial products, etc., which do not have any specific requirements can be stored in a warehouse until they are needed.</p>
+                            </CardText>
+                        </CardBody>
+                    </Card>
+                </div>
+            </div>
+            </Fade>
+            <Fade left>
+            <div className="row servicesrow">
+                <div className="col-12 col-md-12">
+                    <Card>
+                        <CardBody>
+                            <CardTitle tag="h6" style={{fontSize:"20px"}}><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-ship"></span> CROSS DOCKING</CardTitle>
+                            <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
+                            <CardText>
+                            <p>FJS logistics provides cross-docking services that mean preparing the warehouse’s docks for the incoming freight to quickly transfer materials onto outbound trucks.</p>
+                            </CardText>
+                        </CardBody>
+                    </Card>
+                </div>
+            </div>
+            </Fade>
+            <Fade right>
+            <div className="row servicesrow">
+                <div className="col-12 col-md-12">
+                    <Card>
+                        <CardBody>
+                            <CardTitle tag="h6" style={{fontSize:"20px"}}><FontAwesomeIcon icon={faTruckLoading} style={{fontSize:"30px", color:"#1d5797"}}/> FREIGHT FORWARDING</CardTitle>
+                            <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
+                            <CardText>
+                            <p>Freight forwarding is a mediator that provides an extensive range of logistics services to move the cargo from its point of origin to its final destination.</p>
+                            </CardText>
+                        </CardBody>
+                    </Card>
+                </div>
+            </div>
+            </Fade>
+            <Fade left>
+            <div className="row servicesrow">
+                <div className="col-12 col-md-12">
+                    <Card>
+                        <CardBody>
+                            <CardTitle tag="h6" style={{fontSize:"20px"}}><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-truck"></span> TRANSPORTATION</CardTitle>
+                            <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
+                            <CardText>
+                            <p>Transportation is not just the essence of any logistics but also of any business activity in general.</p>
+                            </CardText>
+                        </CardBody>
+                    </Card>
+                </div>
+            </div>
+            </Fade>
+            <Fade right>
+            <div className="row servicesrow">
+                <div className="col-12 col-md-12">
+                    <Card>
+                        <CardBody>
+                            <CardTitle tag="h6" style={{fontSize:"20px"}}><FontAwesomeIcon icon={faTools} style={{fontSize:"30px", color:"#1d5797"}}/> VALUE ADDED SERVICES</CardTitle>
+                            <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
+                            <CardText>
+                            <p>FJS logistics understand that logistics is a complex business and consists of various different activities.</p>
+                            </CardText>
+                        </CardBody>
+                    </Card>
+                </div>
+            </div>
+            </Fade>
+            <Fade right>
             <div className="row">
                 <div className="col-12 col-md-12 m-auto">
                 <Link to="/service" className="btn btn-info btnlink" style={{marginTop:'2em',float:'right'}}>Click here for more <span className="fa fa-arrow-right"></span></Link>
                 </div>
             </div>
-
-
-            <h2 style={{textAlign:"center", marginTop:'120px'}}><strong>VALUE ADDED SERVICES</strong></h2>
-            <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left", width:"20%"}}/>
-            <div className="row valueaddedrow">
-                <div className="col-12 col-md-4">
-                    <Card style={{height:"500px", marginTop:'20px'}}>
-                        <CardBody>
-                            <CardImg variant="top" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/packing.jpg" style={{padding:"0px",margin:"0px"}}></CardImg>
-                            <CardTitle tag="h6" style={{marginTop:"15px", fontSize:"20px"}}>PACKING</CardTitle>
-                            <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
-                            <CardText>
-                            <p>The Company also takes care of packaging for the good and does replenishing corrugated packaging solutions for companies and clients. Packing the goods safely into designated cartons or containers designed according to specific requirements of clients.</p>
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-4">
-                    <Card style={{height:"500px", marginTop:'20px'}}>
-                        <CardBody>
-                        <CardImg className="img-fluid" variant="top" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/inventory.jpg" height="405" style={{padding:"0px",margin:"0px"}}></CardImg>
-                            <CardTitle tag="h6" style={{marginTop:"15px", fontSize:"20px"}}>INVENTORY MANAGEMENT</CardTitle>
-                            <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
-                            <CardText>
-                            <p>Inventory management can be a very tedious task; it involves various different processes like ordering, storing, rechecking, etc. It includes the management of raw materials as well and of components and finished products, as well as warehousing and processing such items.</p>
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </div>
-                <div className="col-12 col-md-4">
-                    <Card style={{height:"500px",marginTop:'20px'}}>
-                        <CardBody>
-                            <CardImg variant="top" src="https://raw.githubusercontent.com/ashishbthoppil/fjs/main/public/assets/images/import.jpg" style={{padding:"0px",margin:"0px"}}></CardImg>
-                            <CardTitle tag="h6" style={{marginTop:"15px", fontSize:"20px"}}>IMPORT/EXPORT SERVICES</CardTitle>
-                            <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
-                            <CardText>
-                            <p>FJS logistics takes the responsibility for export customs clearance as well as for the import process to reduce the burden on its clients.</p>
-                            </CardText>
-                        </CardBody>
-                    </Card>
-                </div>
-            </div>
-            <div className="row">
-                <div className="col-12 col-md-12">
-                    <Link to="/service" className="btn btn-info btnlink" style={{marginTop:'2em',float:'right'}}>Click here for more <span className="fa fa-arrow-right"></span></Link>
-                </div>
-            </div>
+            </Fade>
         
-        </Fade>
         </div>
         </>
         );
