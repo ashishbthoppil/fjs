@@ -62,9 +62,10 @@ class Contact extends Component {
                     <div className="col-12 col-sm-4 offset-sm-1" style={{border:"1px solid" ,borderColor:"#f2f2f2",boxShadow: "2px 3px #f2f2f2", padding:"15px", height:"290px"}}>
                             <h5><strong>Our Address</strong></h5>
                             <address>
-                        <span style={{color:'#1d5797'}} className="fa fa-address-card" aria-hidden="true"></span>: FJS LOGISTICS DWC-LLC,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Business Center, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dubai World Central,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P.O. Box 182113, Dubai, U. A. E <br/>
-                          <i style={{color:'#1d5797'}} className="fa fa-fax fa-lg"></i>: +971 48053900<br />
-                          <i style={{color:'#1d5797'}} className="fa fa-phone fa-lg"></i>: +971 507163192 / +971 524131176<br />
+                        {/* <span style={{color:'#1d5797'}} className="fa fa-address-card" aria-hidden="true"></span>: FJS LOGISTICS DWC-LLC,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Business Center, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dubai World Central,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P.O. Box 182113, Dubai, U. A. E <br/> */}
+                        <span style={{color:'#1d5797'}} className="fa fa-address-card" aria-hidden="true"></span> : FJS LOGISTICS DWC-LLC,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P.O.Box: 182113, Plot No 597-595, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dubai Investment Park 2,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dubai, U. A. E <br/> 
+                        <i style={{color:'#1d5797'}} className="fa fa-phone fa-lg"></i>: +971 50 7163192 / +971 52 4131176<br />
+                          <i style={{color:'#1d5797'}} className="fa fa-fax fa-lg"></i>: +971 4 805 3900<br />
                           <i style={{color:'#1d5797'}} className="fa fa-envelope fa-lg"></i>: <a href="mailto:t.thoppil@fjslogistics.com">
                           t.thoppil@fjslogistics.com</a>
                         </address>
