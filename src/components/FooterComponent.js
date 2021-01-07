@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import Fade from 'react-reveal/Fade';
+import { UncontrolledTooltip } from 'reactstrap'
 
 function Footer(props){
     return(
@@ -33,8 +34,18 @@ function Footer(props){
                     <div className="col-12 col-sm-4 align-self-center">
                         <div className="text-center">
                             <h4><strong><u>Social Links</u></strong></h4>
-                            <a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/thankappenthoppil/" target="_blank"><FontAwesomeIcon icon={faLinkedin} style={{fontSize:"30px", color:'#ebf8ff'}}/></a>
-                            <a className="btn btn-social-icon" href="mailto:t.thoppil@fjslogistics.com"><i className="fa fa-envelope" style={{fontSize:"30px", color:'#ebf8ff'}}></i></a>
+                            <a id="CompanyLink" className="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/company/fjs-logistics/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} style={{fontSize:"30px", color:'#ebf8ff'}}/></a>
+                            <UncontrolledTooltip placement='top' target='CompanyLink'>
+                                Company Profile
+                            </UncontrolledTooltip>
+                            <a id="ContactPerson" className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/thankappenthoppil/" target="_blank"><FontAwesomeIcon icon={faLinkedin} style={{fontSize:"30px", color:'#ebf8ff'}}/></a>
+                            <UncontrolledTooltip placement='top' target='ContactPerson'>
+                                Contact Person
+                            </UncontrolledTooltip>
+                            <a id="Email" className="btn btn-social-icon" href="mailto:t.thoppil@fjslogistics.com"><i className="fa fa-envelope" style={{fontSize:"30px", color:'#ebf8ff'}}></i></a>
+                            <UncontrolledTooltip placement='top' target='Email'>
+                                Mail to us!
+                            </UncontrolledTooltip>
                         </div>
                     </div>
                 </div>
