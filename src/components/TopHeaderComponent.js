@@ -33,22 +33,26 @@ class TopHeader extends Component{
                 <Nav className="ml-auto" navbar style={{ bottom:"25px",right:"50px"}}>
                     <NavItem>
                         <NavLink className="nav-link" to="/home">
-                        <strong><span className="fa fa-home fa-lg"></span> HOME</strong>
+                        <strong> HOME</strong> 
+                        {/* <span className="fa fa-home fa-lg"></span> */}
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className="nav-link" to="/aboutus">
-                        <strong><span className="fa fa-info fa-lg"></span> ABOUT US</strong>
+                        <strong>ABOUT US</strong>
+                        {/* <span className="fa fa-info fa-lg"></span>  */}
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className="nav-link" to="/service">
-                            <strong><span className="fa fa-briefcase fa-lg"></span> SERVICES</strong>
+                            <strong>SERVICES</strong>
+                            {/* <span className="fa fa-briefcase fa-lg"></span>  */}
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className="nav-link" to="/contactus">
-                            <strong><span className="fa fa-address-book fa-lg"></span> CONTACT US</strong>
+                            <strong> CONTACT US</strong>
+                            {/* <span className="fa fa-address-book fa-lg"></span> */}
                         </NavLink>
                     </NavItem>
                 </Nav>

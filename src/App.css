@@ -81,13 +81,23 @@ address {
   bottom: 0;
   color: #ebf8ff;
   margin:50px 0px auto;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 0px 0px;
   font-family: "Proxima_Nova_Bold";
 }
 
 .nav-item{
   margin-left: 20px;
-  font-size: 15px;
+  font-size: 16px;
+}
+
+a.nav-link{
+  color:white !important;
+}
+
+a.nav-link.active{
+  opacity: 50% !important;
+  transition-duration: 00.2s;
+  margin-top: 2px;
 }
 
 
@@ -160,6 +170,7 @@ address {
   line-height: 120%;
   font-family: 'Proxima_Nova_Regular';
   color: #000000;
+  text-align: justify;
 }
 
 .card-title{
