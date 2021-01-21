@@ -90,7 +90,7 @@ address {
   font-size: 16px;
 }
 
-a.nav-link{
+/* a.nav-link{
   color:white !important;
 }
 
@@ -98,7 +98,7 @@ a.active{
   opacity: 50% !important;
   transition-duration: 00.2s;
   margin-top: 2px;
-}
+} */
 
 
 .carousel-caption h3{
