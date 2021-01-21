@@ -94,7 +94,7 @@ a.nav-link{
   color:white !important;
 }
 
-a.nav-link.active{
+a.active{
   opacity: 50% !important;
   transition-duration: 00.2s;
   margin-top: 2px;
