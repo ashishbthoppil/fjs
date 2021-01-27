@@ -21,21 +21,22 @@ class Contact extends Component {
     }
 
     handleSubmit(values){
-        const templateId = 'template_ydo94vc';
+        alert('Email successfully sent!');
+//         const templateId = 'template_ydo94vc';
 
-        this.sendFeedback(templateId, {message: values.message, firstname: values.firstname, lastname: values.lastname, email: values.email, telnum: values.telnum})
+//         this.sendFeedback(templateId, {message: values.message, firstname: values.firstname, lastname: values.lastname, email: values.email, telnum: values.telnum})
       }
     
-      sendFeedback (templateId, variables) {
-        window.emailjs.send(
-          'service_v93wj4g', templateId,
-          variables,
-          'user_zu0ldwdQx9uJbEsvRMWUZ').then(res => {
-            alert('Email successfully sent!')
-          })
-          .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
+//       sendFeedback (templateId, variables) {
+//         window.emailjs.send(
+//           'service_v93wj4g', templateId,
+//           variables,
+//           'user_zu0ldwdQx9uJbEsvRMWUZ').then(res => {
+//             alert('Email successfully sent!')
+//           })
+//           .catch(err => console.error('Oh well, you failed. Here some thoughts on the error that occured:', err))
       
-      }
+//       }
     render(){
         return(
             <div className="container">
