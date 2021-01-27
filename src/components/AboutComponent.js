@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardBody, 
-    CardTitle, CardText, CardImg, Breadcrumb, BreadcrumbItem} from 'reactstrap';
+    CardTitle, CardText, Breadcrumb, BreadcrumbItem} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 

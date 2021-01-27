@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { UncontrolledCarousel, Card, CardBody, CardTitle, CardText, CardImg, Media} from 'reactstrap';
+import { UncontrolledCarousel, Card, CardBody, CardTitle, CardText} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWarehouse, faTools, faBoxes, faShoppingBasket, faExchangeAlt, faTimesCircle, faNetworkWired, faObjectGroup, faFileAlt, faTruckLoading, faTruckMoving, faLock, faGlobeAsia, faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { faWarehouse, faTools, faGlobe, faTruckLoading } from '@fortawesome/free-solid-svg-icons'
 
 // import FJSCarousel from "./CarouselComponent";
 
