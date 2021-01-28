@@ -1,6 +1,6 @@
 import Main from './components/MainComponent';
 import Contact from './components/ContactComponent';
-import { HashRouter,Switch, Route, Redirect, withRouter } from "react-router-dom";
+import { HashRouter,Switch, Route, Redirect } from "react-router-dom";
 import TopHeader from './components/TopHeaderComponent';
 import Footer from './components/FooterComponent';
 import About from './components/AboutComponent';
