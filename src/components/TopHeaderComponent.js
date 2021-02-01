@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Jumbotron} from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem} from 'reactstrap';
 import {NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faHome, faInfoCircle, faPhoneAlt, faSuitcase } from '@fortawesome/free-solid-svg-icons';
 
 class TopHeader extends Component{
     constructor(props){
@@ -33,24 +33,28 @@ class TopHeader extends Component{
                 <Nav className="ml-auto" navbar style={{ bottom:"25px",right:"50px"}}>
                     <NavItem>
                         <NavLink className="nav-link" to="/home">
+                        <FontAwesomeIcon icon={faHome} style={{textAlign:"center", margin:'auto', marginTop:'10px'}}/>
                         <strong> HOME</strong> 
                         {/* <span className="fa fa-home fa-lg"></span> */}
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className="nav-link" to="/aboutus">
-                        <strong>ABOUT US</strong>
+                        <FontAwesomeIcon icon={faInfoCircle} style={{textAlign:"center", margin:'auto', marginTop:'10px'}}/>
+                        <strong> ABOUT US</strong>
                         {/* <span className="fa fa-info fa-lg"></span>  */}
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className="nav-link" to="/service">
-                            <strong>SERVICES</strong>
+                        <FontAwesomeIcon icon={faSuitcase} style={{textAlign:"center", margin:'auto', marginTop:'10px'}}/>
+                            <strong> SERVICES</strong>
                             {/* <span className="fa fa-briefcase fa-lg"></span>  */}
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className="nav-link" to="/contactus">
+                        <FontAwesomeIcon icon={faPhoneAlt} style={{textAlign:"center", margin:'auto', marginTop:'10px'}}/>
                             <strong> CONTACT US</strong>
                             {/* <span className="fa fa-address-book fa-lg"></span> */}
                         </NavLink>
@@ -59,20 +63,6 @@ class TopHeader extends Component{
                 </Collapse>
             </div>
         </Navbar>
-        {/* <Jumbotron>
-            <div className="container">
-                <div className="row">
-                    <div className="col-12 col-md-6 m-auto">
-                        <span style={{color:"#ebf8ff"}}><strong>Contact us</strong> :</span><a className="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/thankappenthoppil/" target="_blank">
-                        <FontAwesomeIcon icon={faLinkedin} style={{fontSize:"20px", color:"#ebf8ff"}}/></a>
-                        <a className="btn btn-social-icon" href="mailto:t.thoppil@fjslogistics.com"><i className="fa fa-envelope" style={{fontSize:"20px", color:"#ebf8ff"}}></i></a>
-                    </div>
-                    <div className="col-12 col-md-6 m-auto">
-                    <span style={{color:"#ebf8ff", float:'right'}}><strong>Tel no. </strong>: +971 4 805 3900 / +971 50 716 3192 </span>
-                    </div>
-                </div>
-            </div>
-        </Jumbotron> */}
         </>
         );
     }

@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
-import { UncontrolledCarousel, Card, CardBody, CardTitle, CardText, CardImg, Media} from 'reactstrap';
+import { UncontrolledCarousel, Card, CardBody, CardTitle, CardText } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWarehouse, faTools, faBoxes, faShoppingBasket, faExchangeAlt, faTimesCircle, faNetworkWired, faObjectGroup, faFileAlt, faTruckLoading, faTruckMoving, faLock, faGlobeAsia, faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { faWarehouse, faTools, faTruckLoading, faTruckMoving, faGlobe, faShip, faEye, faBullseye } from '@fortawesome/free-solid-svg-icons';
 
 // import FJSCarousel from "./CarouselComponent";
 
 class Main extends Component{
-    constructor(props){
-        super(props);
-    }
 
     componentDidMount(props){
         window.scrollTo(0, 0);
@@ -80,15 +77,14 @@ class Main extends Component{
                             <CardTitle tag="h3">ABOUT US</CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
-                            <p>FJS logistics provides the best services and solutions to its customers, offers timely delivery, and
-                            excellent support services without arbitrating on the quality and all this at economical rates.</p>
-                            <p>Strategically headquartered in Dubai, with its warehouse space in DIP-2 that provides quick
-                            access to numerous main roads and business hubs and owning a spacious total area of 12,500 sq
-                            meters, and a built-up area of 7,500 sq meters, including Bulk and Racked storage area and an open yard storage facility of 10,000 sq meters in Dubai Industrial City. FJS
+                            FJS logistics provides the best services and solutions to its customers, offers timely delivery, and
+                            excellent support services without arbitrating on the quality and all this at economical rates.
+                            Strategically headquartered in Dubai, with its warehouse space in DIP-2 that provides quick
+                            access to numerous main roads and business hubs and owning multiple warehouse and open yard facilities in Dubai Main Land in JAFZA. FJS
                             logistics offers an array of services to suit the diverse needs of the customers and also to keep up
                             with the fast-paced trends of the market. Owning to its broad network, use of cutting-edge
                             technology and market-expertise, the company strives to be amongst the leaders in its respective
-                            field.</p>
+                            field.
                             </CardText>
                         </CardBody>
                     </Card>
@@ -97,7 +93,7 @@ class Main extends Component{
             <div className="row missionrow">
                 <div className="col-12 col-md-6">
                     <Card style={{backgroundColor:"#1d5797",height:"300px", textAlign:"center"}}>
-                        <span className="fa fa-eye" style={{color:"#ebf8ff",fontSize:"50px", marginTop:"10px",textAlign:"center"}}></span>
+                    <FontAwesomeIcon icon={faEye} style={{fontSize:"50px", color:"#ebf8ff",textAlign:"center", margin:'auto', marginTop:'10px'}}/>
                         <CardBody>
                             <CardTitle tag="h3" style={{textAlign:"center",color:"#ebf8ff"}}><strong>OUR VISION</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -117,7 +113,8 @@ class Main extends Component{
                 </div>
                 <div className="col-12 col-md-6">
                     <Card style={{backgroundColor:"#1d5797",height:"300px", textAlign:"center"}}>
-                        <span className="fa fa-bullseye" style={{color:"#ebf8ff",fontSize:"50px", marginTop:"10px",textAlign:"center"}}></span>
+                    <FontAwesomeIcon icon={faBullseye} style={{fontSize:"50px", color:"#ebf8ff",textAlign:"center", margin:'auto', marginTop:'10px'}}/>
+                        {/* <span className="fa fa-bullseye" style={{color:"#",fontSize:"", marginTop:"10px",textAlign:"center"}}></span> */}
                         <CardBody>
                             <CardTitle tag="h3" style={{textAlign:"center",color:"#ebf8ff"}}><strong>OUR MISSION</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -137,7 +134,7 @@ class Main extends Component{
                             <CardTitle tag="h3"><strong>QUALITY CONTROL</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
-                            <p>All our products and services go through a series of stringent quality control checks to ensure only the best ones reach our valued customers.</p><p> Being strict on quality control not only helps us in identifying the loopholes but also encourages us to constantly improve our techniques.</p>
+                            All our products and services go through a series of stringent quality control checks to ensure only the best ones reach our valued customers. Being strict on quality control not only helps us in identifying the loopholes but also encourages us to constantly improve our techniques.
                             </CardText>
                         </CardBody>
                     </Card>
@@ -158,7 +155,7 @@ class Main extends Component{
                             <CardTitle tag="h6" style={{fontSize:"20px"}}><FontAwesomeIcon icon={faGlobe} style={{fontSize:"30px", color:"#1d5797"}}/> 3<sub>rd</sub> PARTY LOGISTICS</CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
-                            <p>Gain complete and customized control over your logistics , with our 3PL Logistics Services.</p>
+                            Gain complete and customized control over your logistics , with our 3PL Logistics Services.
                             </CardText>
                         </CardBody>
                     </Card>
@@ -173,8 +170,11 @@ class Main extends Component{
                             <CardTitle tag="h6" style={{fontSize:"20px"}}><FontAwesomeIcon icon={faWarehouse} style={{fontSize:"30px", color:"#1d5797"}}/> GENERAL WAREHOUSING</CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
-                            <p>The company also offers General Warehousing that means different
-Non-perishable goods like apparels, manufacturing raw material, automobile components, industrial products, etc., which do not have any specific requirements can be stored in a warehouse until they are needed.</p>
+                            The company also offers General Warehousing that means different
+                            Non-perishable goods like apparels, manufacturing raw material, 
+                            automobile components, industrial products, etc., which do not 
+                            have any specific requirements can be stored in a warehouse until 
+                            they are needed.
                             </CardText>
                         </CardBody>
                     </Card>
@@ -186,10 +186,10 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                 <div className="col-12 col-md-12">
                     <Card>
                         <CardBody>
-                            <CardTitle tag="h6" style={{fontSize:"20px"}}><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-ship"></span> CROSS DOCKING</CardTitle>
+                            <CardTitle tag="h6" style={{fontSize:"20px"}}><FontAwesomeIcon icon={faShip} style={{fontSize:"30px", color:"#1d5797"}}/> CROSS DOCKING</CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
-                            <p>FJS logistics provides cross-docking services that mean preparing the warehouse’s docks for the incoming freight to quickly transfer materials onto outbound trucks.</p>
+                            FJS logistics provides cross-docking services that mean preparing the warehouse’s docks for the incoming freight to quickly transfer materials onto outbound trucks.
                             </CardText>
                         </CardBody>
                     </Card>
@@ -204,7 +204,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                             <CardTitle tag="h6" style={{fontSize:"20px"}}><FontAwesomeIcon icon={faTruckLoading} style={{fontSize:"30px", color:"#1d5797"}}/> FREIGHT FORWARDING</CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
-                            <p>Freight forwarding is a mediator that provides an extensive range of logistics services to move the cargo from its point of origin to its final destination.</p>
+                            Freight forwarding is a mediator that provides an extensive range of logistics services to move the cargo from its point of origin to its final destination.
                             </CardText>
                         </CardBody>
                     </Card>
@@ -216,10 +216,10 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                 <div className="col-12 col-md-12">
                     <Card>
                         <CardBody>
-                            <CardTitle tag="h6" style={{fontSize:"20px"}}><span style={{fontSize:"30px", color:"#1d5797"}} className="fa fa-truck"></span> TRANSPORTATION</CardTitle>
+                            <CardTitle tag="h6" style={{fontSize:"20px"}}><FontAwesomeIcon icon={faTruckMoving} style={{fontSize:"30px", color:"#1d5797"}}/> TRANSPORTATION</CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
-                            <p>Transportation is not just the essence of any logistics but also of any business activity in general.</p>
+                            Transportation is not just the essence of any logistics but also of any business activity in general.
                             </CardText>
                         </CardBody>
                     </Card>
@@ -234,7 +234,7 @@ Non-perishable goods like apparels, manufacturing raw material, automobile compo
                             <CardTitle tag="h6" style={{fontSize:"20px"}}><FontAwesomeIcon icon={faTools} style={{fontSize:"30px", color:"#1d5797"}}/> VALUE ADDED SERVICES</CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
-                            <p>FJS logistics understand that logistics is a complex business and consists of various different activities.</p>
+                            FJS logistics understand that logistics is a complex business and consists of various different activities.
                             </CardText>
                         </CardBody>
                     </Card>

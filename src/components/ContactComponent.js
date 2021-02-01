@@ -3,6 +3,8 @@ import { Breadcrumb, BreadcrumbItem, Button, Label, Col, Row} from 'reactstrap';
 import { Control, LocalForm, Errors } from 'react-redux-form';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAddressCard, faPhoneAlt, faFax, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const required = (val) => val && val.length;
 const maxLength = (len) => (val) =>!(val) || (val.length) <= len
@@ -51,10 +53,10 @@ class Contact extends Component {
                             <h5><strong>Our Address</strong></h5>
                             <address>
                         {/* <span style={{color:'#1d5797'}} className="fa fa-address-card" aria-hidden="true"></span>: FJS LOGISTICS DWC-LLC,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Business Center, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dubai World Central,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;P.O. Box 182113, Dubai, U. A. E <br/> */}
-                        <span style={{color:'#1d5797'}} className="fa fa-address-card" aria-hidden="true"></span> : FJS LOGISTICS DWC-LLC,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P.O.Box: 182113, Plot No 597-595, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dubai Investment Park 2,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dubai, U. A. E <br/> 
-                        <i style={{color:'#1d5797'}} className="fa fa-phone fa-lg"></i>: +971 50 7163192 / +971 52 4131176<br />
-                          <i style={{color:'#1d5797'}} className="fa fa-fax fa-lg"></i>: +971 4 805 3900<br />
-                          <i style={{color:'#1d5797'}} className="fa fa-envelope fa-lg"></i>: <a href="mailto:t.thoppil@fjslogistics.com">
+                        <FontAwesomeIcon icon={faAddressCard} style={{color:"#1d5797",textAlign:"center", margin:'auto', marginTop:'10px'}}/> : FJS LOGISTICS DWC-LLC,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P.O.Box: 182113, Plot No 597-595, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dubai Investment Park 2,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dubai, U. A. E <br/> 
+                        <FontAwesomeIcon icon={faPhoneAlt} style={{color:"#1d5797",textAlign:"center", margin:'auto', marginTop:'10px'}}/> : +971 50 7163192 / +971 52 4131176<br />
+                        <FontAwesomeIcon icon={faFax} style={{color:"#1d5797",textAlign:"center", margin:'auto', marginTop:'10px'}}/> : +971 4 805 3900<br />
+                        <FontAwesomeIcon icon={faEnvelope} style={{color:"#1d5797",textAlign:"center", margin:'auto', marginTop:'10px'}}/> : <a href="mailto:t.thoppil@fjslogistics.com">
                           t.thoppil@fjslogistics.com</a>
                         </address>
                         <div className="btn-group" role="group">
@@ -65,8 +67,8 @@ class Contact extends Component {
                     <div className="col-12 col-sm-6 offset-sm-1" style={{border:"1px solid" ,borderColor:"#f2f2f2",boxShadow: "2px 3px #f2f2f2", padding:"15px"}}>
                         <h5><strong>Map of our Location</strong></h5>
                         <div id="map-container-google-1" className="z-depth-1-half map-container" style={{height: "500px"}}>
-                            <iframe src="https://maps.google.com/maps?q=24.982449, 55.189044&t=&z=13&ie=UTF8&iwloc=&output=embed&z=17" frameborder="0"
-                            style={{border:"0"}} allowfullscreen></iframe>
+                            <iframe src="https://maps.google.com/maps?q=24.982449, 55.189044&t=&z=13&ie=UTF8&iwloc=&output=embed&z=17" title="FJS Location" frameBorder="0"
+                            style={{border:"0"}} allowFullScreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -82,7 +84,7 @@ class Contact extends Component {
                                 <Row className="form-group">
                                     <Label htmlFor="firstname" md={2}>First Name</Label>
                                     <Col md={10}>
-                                        <Control.text model=".firstname" id="firstname" name="firstname"
+                                        <Control model=".firstname" id="firstname" name="firstname"
                                                 placeholder="First Name"
                                                 className="form-control"
                                                 validators={{
@@ -99,7 +101,7 @@ class Contact extends Component {
                                 <Row className="form-group">                                    
                                     <Label htmlFor="lastname" md={2}>Last Name</Label>
                                     <Col md={10}>
-                                        <Control.text model=".lastname" className="form-control" 
+                                        <Control model=".lastname" className="form-control" 
                                                 id="lastname" name="lastname"
                                                 placeholder="Last Name" 
                                                 validators={{
@@ -116,7 +118,7 @@ class Contact extends Component {
                                 <Row className="form-group">                                    
                                 <Label htmlFor="telnum" md={2}>Contact Tel.</Label>
                                     <Col md={10}>
-                                        <Control.text model=".telnum" id="telnum" className="form-control" name="telnum"
+                                        <Control model=".telnum" id="telnum" className="form-control" name="telnum"
                                                 placeholder="Tel. Number" validators={{
                                                     required, minLength: minLength(3), maxLength: maxLength(15), isNumber
                                                 }}/>
@@ -132,7 +134,7 @@ class Contact extends Component {
                                 <Row className="form-group">
                                     <Label htmlFor="email" md={2}>Email</Label>
                                     <Col md={10}>
-                                        <Control.text model=".email" className="form-control" id="email" name="email"
+                                        <Control model=".email" className="form-control" id="email" name="email"
                                                 placeholder="Email" validators={{
                                                     required,validEmail
                                                 }}/>
@@ -146,7 +148,7 @@ class Contact extends Component {
                                 <Row className="form-group">
                                     <Label htmlFor="message" md={2}>Your Feedback</Label>
                                     <Col md={10}>
-                                        <Control.textarea model=".message" className="form-control" id="message" name="message"
+                                        <textarea model=".message" className="form-control" id="message" name="message"
                                                 rows="12"/>
                                     </Col>
                                 </Row>

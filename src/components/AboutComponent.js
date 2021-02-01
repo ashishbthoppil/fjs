@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Card, CardBody, 
-    CardTitle, CardText, CardImg, Breadcrumb, BreadcrumbItem} from 'reactstrap';
+        CardTitle, CardText, Breadcrumb, 
+        BreadcrumbItem} from 'reactstrap';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEye, faBullseye } from '@fortawesome/free-solid-svg-icons';
 
 class About extends Component{
-    constructor(props){
-        super(props)
-    }
 
     componentDidMount(props){
         window.scrollTo(0, 0);
@@ -47,10 +47,24 @@ class About extends Component{
                             <CardTitle tag="h3"><strong>COMPANY OVERVIEW</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
-                            <p>Strategically headquartered in Dubai, with its warehouse space in DIP-2 that provides quick access to numerous main roads and business hubs and owning a spacious total area of 12,500 sq meters, and a built-up area of 7,500 sq meters, including Bulk and Racked storage area and an open yard storage facility of 10,000 sq meters in Dubai Industrial City. FJS logistics offers an array of services to suit the diverse needs of the customers and also to keep up with the fast-paced trends of the market. Owning to its broad network, use of cutting-edge technology and market-expertise, the company strives to be amongst the leaders in its respective field. </p>
-                            <p>Apart from this, we also have owned and leased facilities in Dubai's main Land and in JAFZA to meet our customer’s requirements.</p>
-                            <p>The company has an open yard storage facility that has an area of 20000 sq meters in Dubai Industrial City, which is suitable for various reasons like Project Cargo, Steel Product, Equipment and Machinery, etc.</p>
-                            <p>FJS logistics provides the best services and solutions to its customers, offers timely delivery, and excellent support services without arbitrating on the quality and all this at economical rates.</p>
+                            Strategically headquartered in Dubai, with its warehouse space in DIP-2
+                            that provides quick access to numerous main roads and business hubs and 
+                            owning  multiple warehouse and open yard facilities in Dubai Main Land 
+                            in JAFZA, which is suitable for various reasons like Project Cargo,
+                            Steel Product, Equipment and Machinery, etc. 
+                            <br/>
+                            <br/>
+                            FJS logistics offers an array of services to suit the diverse 
+                            needs of the customers and also to keep up with the fast-paced trends of 
+                            the market. Owning to its broad network, use of cutting-edge technology 
+                            and market-expertise, the company strives to be amongst the leaders in 
+                            its respective field. 
+                            <br/>
+                            <br/>
+                            
+                            FJS logistics provides the best services and solutions to its customers, offers 
+                            timely delivery, and excellent support services without arbitrating on the quality 
+                            and all this at economical rates.
                             </CardText>
                         </CardBody>
                     </Card>
@@ -65,10 +79,13 @@ class About extends Component{
                     <CardTitle tag="h3"><strong>DIRECTORS MESSAGE</strong></CardTitle>
                         <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                         <CardText>
-                            <p>
-                            Our overall business strength is shaped by our core strategies and values. We work tirelessly to provide our customers unparalleled services and quality products at a competitive price. We aim to emerge as a customer’s first choice, which is also our vision. We believe, when it comes to ethics and integrity, there can be no compromises, no excuses.</p>
-                            <p>Integrity, competency, excellence, customer service and creativity – these values are the pillars of our Company.
-                            </p>
+                            Our overall business strength is shaped by our core strategies and values. 
+                            We work tirelessly to provide our customers unparalleled services and quality 
+                            products at a competitive price. We aim to emerge as a customer’s first choice, 
+                            which is also our vision. We believe, when it comes to ethics and integrity, 
+                            there can be no compromises, no excuses.
+                            Integrity, competency, excellence, customer service and creativity – these values 
+                            are the pillars of our Company.
                         </CardText>
                     </CardBody>
                 </Card>
@@ -80,12 +97,12 @@ class About extends Component{
             <Fade left>
                 <div className="col-12 col-md-6">
                     <Card style={{backgroundColor:"#1d5797",height:"300px", textAlign:"center"}}>
-                        <span className="fa fa-eye" style={{color:"#ebf8ff",fontSize:"50px", marginTop:"10px",textAlign:"center"}}></span>
+                    <FontAwesomeIcon icon={faEye} style={{fontSize:"50px", color:"#ebf8ff",textAlign:"center", margin:'auto', marginTop:'10px'}}/>
                         <CardBody>
                             <CardTitle tag="h3" style={{textAlign:"center",color:"#ebf8ff"}}><strong>OUR VISION</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText style={{color:"#ebf8ff", padding:'20px'}}>
-                                <p>Our vision is to become the customer’s first choice in the industry.</p>
+                                Our vision is to become the customer’s first choice in the industry.
                             </CardText>
                         </CardBody>
                     </Card>
@@ -110,7 +127,7 @@ class About extends Component{
                 <Fade right>
                 <div className="col-12 col-md-6">
                     <Card style={{backgroundColor:"#1d5797",height:"300px", textAlign:"center"}}>
-                        <span className="fa fa-bullseye" style={{color:"#ebf8ff",fontSize:"50px", marginTop:"10px",textAlign:"center"}}></span>
+                    <FontAwesomeIcon icon={faBullseye} style={{fontSize:"50px", color:"#ebf8ff",textAlign:"center", margin:'auto', marginTop:'10px'}}/>
                         <CardBody>
                             <CardTitle tag="h3" style={{textAlign:"center",color:"#ebf8ff"}}><strong>OUR MISSION</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
@@ -131,7 +148,10 @@ class About extends Component{
                             <CardTitle tag="h3"><strong>QUALITY CONTROL</strong></CardTitle>
                             <hr style={{backgroundColor:"#1d5797",height:"5px", textAlign:"left"}}/>
                             <CardText>
-                            <p>All our products and services go through a series of stringent quality control checks to ensure only the best ones reach our valued customers.</p><p> Being strict on quality control not only helps us in identifying the loopholes but also encourages us to constantly improve our techniques.</p>
+                            All our products and services go through a series of stringent quality control
+                             checks to ensure only the best ones reach our valued customers. Being strict 
+                             on quality control not only helps us in identifying the loopholes but also 
+                             encourages us to constantly improve our techniques.
                             </CardText>
                         </CardBody>
                     </Card>
