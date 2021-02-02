@@ -4,9 +4,8 @@ import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWarehouse, faTools, faTruckLoading, faTruckMoving, faGlobe, faShip, faEye, faBullseye } from '@fortawesome/free-solid-svg-icons';
+import { faWarehouse, faTools, faTruckLoading, faTruckMoving, faGlobe, faShip, faEye, faBullseye, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
-// import FJSCarousel from "./CarouselComponent";
 
 class Main extends Component{
 
@@ -244,7 +243,7 @@ class Main extends Component{
             <Fade right>
             <div className="row">
                 <div className="col-12 col-md-12 m-auto">
-                <Link to="/service" className="btn btn-info btnlink" style={{marginTop:'2em',float:'right'}}>Click here for more <span className="fa fa-arrow-right"></span></Link>
+                <Link to="/service" className="btn btn-info btnlink" style={{marginTop:'2em',float:'right'}}>Click here for more <FontAwesomeIcon icon={faArrowRight} style={{color:"#ebf8ff"}}/></Link>
                 </div>
             </div>
             </Fade>
